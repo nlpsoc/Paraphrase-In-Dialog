@@ -1,0 +1,386 @@
+SAMPLE 0.3% of utterances that either have only 1-2 tokens said by IR or by IE
+
+>>Signal of reception
+----
+NPR-15915-6
+["Well, the other thing that caught us there was that the plumbing was backing up at the same point. So honestly, you know, now we're in a somewhat desperate situation."]
+['Yeah.']
+----
+NPR-16481-11
+["Who's going to take the hit. Whether they ought to take a hit or not."]
+['Yeah.']
+----
+NPR-21055-11
+['Exactly. Now, what the researchers did is analyzed how likely each of these two players are to make the cut in the next tournament. In other words, they were asking, if you just happen, largely by chance, to make the cut in tournament A, does that change your odds of making the cut in tournament B?']
+['And?']
+----
+NPR-39390-5
+['Let me back up for a moment.']
+['Sure.']
+----
+NPR-48003-4
+['I think that discovery is an ongoing one. I mean, there are certain basic ways in which it actually feels good not to wake up hungover every morning, right?']
+['Right.']
+----
+CNN-881-5
+["Remember what it's four."]
+['Yes.']
+----
+CNN-22339-40
+['... (inaudible). The Boneroom is -- they deal more -- mostly with animal parts...']
+['Ah, OK.']
+----
+CNN-41028-4
+['I should add...']
+['Yes?']
+----
+CNN-53680-5
+["Well, no, I think that it's possible that one person could clearly be involved or a small group."]
+['Right.']
+----
+CNN-156415-92
+['I have to watch TV every day. I have to watch Paula Dean, and I got to watch, you know, food shows.']
+['Yes.']
+----
+CNN-161749-5
+['Exactly. It really should be excessive force. And I think I am just as outraged as you are, Don. And I think just as outraged as the country is at this moment, especially given that this happened on tape, because oftentimes, these things happen and there is no tape. And so how many times does this have to happen? I think it probably unfortunately happens more than we know.']
+['Yes.']
+----
+CNN-151360-9
+["Especially if you're under, say, the age of 45 when you have to have -- you're supposed to be aggressive and have a lot of stocks. OK. So then, from that bottom there, we hope, as you like to say, we hope it's the bottom."]
+['Yes.']
+----
+CNN-179296-35
+['Yes, last year, without him. They would never have qualified...']
+['Yes.']
+----
+CNN-195869-17
+["-- how would they take that on without having civilian casualties and without escalating it? And, you know -- so I think there were a lot of concerns for how to do that. I used to be responsible in my last five years in the bureau of those deployments, of sending people out to areas to conduct forensic exams of where Americans have been killed. My last one was the Mumbai incident in 2008. So, you know, I'm very familiar with the procedures and protocols and need of protection for the investigators when they go to a site like that. And this was just a little more unusual because it wasn't occurring in a country where they have adequate control."]
+['Right, right.']
+----
+CNN-219967-9
+['They have a fire department probably within two minutes drive from there.']
+['OK.']
+----
+CNN-243643-5
+["Yeah, I think so. Probably more than that. They talked about the blizzard of '77."]
+['Yeah.']
+----
+CNN-251418-20
+["Right. And that is not college path that is nothing like what so many this kids believe that have to follow towards success, and it makes the point. Success -- there are so many different paths to success, and not all of life is determined by the span of days in late March, early April when you get your yeses and no's."]
+['Right.']
+----
+CNN-289615-7
+['They were adjacent to room 125 which was the storage closet.']
+['Right. Right.']
+----
+CNN-333452-16
+['First. But secondly, if taxes are needed, you know, to finance on something related to security, to safety or to whatever, to fund an investment in']
+['Right.']
+----
+CNN-393301-13
+["It's still a big deal."]
+['Yes.']
+----
+CNN-393965-12
+['Yes, so we have already bought all the equipment that we need.']
+['Right.']
+----
+CNN-398132-7
+["And now people have recognized this. They're going back. States, the guidance from CDC to states is now to report these presumptive COVID deaths."]
+['OK.']
+----
+CNN-367731-5
+["You know, all the work that we do with the tigers at our zoo is done in what we call a protected contact situation, where there's always a barrier between the tiger and our zookeepers. We have a system, if you will, for tiger management, and that system's built on different processes. And somehow Saturday morning one of those processes failed. We're doing an internal investigation. We're going to identify which process kind of let our system down. We're not at a point where we're pointing out blame on a person --"]
+['Yes.']
+----
+CNN-350418-185
+["But, again, you're acting as if that's not a constitutional right if that was, in fact, what was in his mind. Again, that's speculation. But I think that that's what we have to be clear here. I have to look at what the law is as the evidence exists and what the law is. And when you get to the Article 2 issue, it's a very serious moment --"]
+['Right.']
+----
+CNN-372119-13
+["I don't think the fly-over will change their calculus. They clearly want this jet. And we should want them to want this jet. The Russians won't like it if the Polish buy F-35s."]
+['Sure.']
+----
+CNN-379439-11
+["--pent-up need for this because it is the biggest issue that any politician in human history will have to deal with. So, what do you do for these incredibly complex issues? And there's no real way to tell other than sort of looking at their plans that they're laying out, Mayor Buttigieg and Senator Harris sneaking theirs in right before the Town Hall. And you can really only compare them on since dollars and cents, you know."]
+['Right.']
+----
+CNN-379900-5
+['The House Intel Committee, which you sit on --']
+["Yes, ma'am."]
+----
+CNN-391589-62
+["I care. Of course I care as a citizen. It will determine who I vote for, but let me tell you an analogy. A person is indicted for dishonesty. Then they give a list of terrible things that he has done, dishonest things. I'm his lawyer. I go to court and say dismiss on the ground that dishonesty is not a crime."]
+['OK.']
+
+>>Asks for Elaboration
+----
+CNN-19584-5
+['That was quite a few years ago. And two were two candidates that year. One was a man named Sam Tilden was the governor of New York, a reform candidate against Tammany Hall, against corruption in government. He was the presidential nominee of the Democratic party, And you had Rutherford B. Hayes. He was the nominee of the Republican party. Hayes was a Civil War veteran who had become a general, wounded in action, governor of Ohio, a respected figure. But the election was embittered beyond the measure, and there were four contested delegations. Think about it. Not just one -- four.']
+['Four?']
+----
+CNN-177472-21
+["So we're talking about colleges. But there's another piece that's really interesting. Jobs that are in science fields that don't require a two-year college degree."]
+['Like?']
+----
+CNN-309103-10
+["Well, what I say in the book is that the book of fascism is coming in both from the east and west at the moment, exactly because of what we're seeing in the U.S. or in mainland Europe. There are some very practical things that we can all do to make sure that we keep Britain, a nation which believes in progressive liberal values."]
+['Like?']
+----
+CNN-173488-20
+["Nobody in my position could answer a question like that. It's one thing you learn when you serve in public service. But let me say the"]
+['So --']
+----
+CNN-236964-19
+['Well, first the can the prosecutors manipulating this process --']
+['How so?']
+
+>>Expressive reaction
+----
+CNN-58083-9
+["I have not heard from any of the families, although I can tell you that I spoke with one of the miners that got out, one of the nine guys that did get out of the mine. He said that he's been working in the mine for 27-and-a-half years, and he said he's not going to go back."]
+['Wow!']
+----
+CNN-150035-15
+['... nice, thick hair to being able to support basically peach fuzz.']
+['Oh, interesting.']
+----
+['If you want to credit somebody, it would be YouTube university. In college, I would always be in my dorm room just studying different things. I was listening to the radio a lot growing up as well. And, in college, I got a credit card, so I was buying everything and returning it...']
+['(Laughter).']
+
+>>Protest
+----
+CNN-143563-5
+['So when people say that on reality shows, if you have something to say, say it to my face.']
+['No.']
+>>>>>>>>
+
+
+>>Signal of reception
+
+----
+NPR-5672-20
+['Right.']
+["And as you look ahead at this, on the Hezbollah side, they're said to have maybe 10,000 or more of these rockets. Obviously, the more sophisticated longer range ones many fewer than the Katyushas."]
+----
+NPR-8845-10
+['Yeah.']
+['And you are trying to speak calmly to them. And this huge wave of water just comes pounding in.']
+----
+NPR-9110-75
+['Exactly.']
+['We should all bring everything we have over here.']
+----
+NPR-11308-13
+['Yeah.']
+['...Is legal in Washington state. The attorney general of the United States has said that the Obama-era policy of looking the other way when states legalize recreational use of marijuana is over. Citizens who use recreational marijuana in Washington state, are they going to be vulnerable to arrest?']
+----
+NPR-19884-9
+['Yes.']
+['Is there an opportunity to change course in Syria because of that?']
+----
+NPR-24643-8
+['Exactly. Exactly.']
+['So what is the Mexican congress talking about doing about this?']
+----
+CNN-6088-11
+["That's right."]
+['So what happened with that investigation? What was the outcome or the reason why the craft went down?']
+----
+CNN-6905-7
+['Sure.']
+['If the administration has nothing to hide here, why not go ahead and have hearings and get everything out in the open?']
+----
+CNN-7978-5
+["Yes, ma'am."]
+['OK. Now, the weather reports say the winds may actually work in your favor today. Can you explain what that will actually change for the fire crews out there, if the winds die down a bit?']
+['So Braille is easy. Mc']
+----
+CNN-17637-5
+['Exactly.']
+["Can't help but notice your little fashion statement of all your pink ribbons on your lapel there."]
+----
+CNN-22471-13
+['Yes.']
+['Jennifer Biscoe of eComplaints.com, thank you very much for coming in to talk to us today.']
+----
+CNN-38712-37
+['Right.']
+["And CNN isn't even sacred territory. Do you find that we're funny, too?"]
+----
+CNN-54411-53
+['Absolutely.']
+["Father Allen Hawkins, we wish you well in your priestly duties and in your marriage and we're sorry that your wife was too camera shy to join us this morning, but anyway. She can talk about that in her next confession to you. I gather you don't do confessions..."]
+----
+CNN-65663-7
+['Absolutely.']
+["All right, well, where are, where is, they've been there a long time and thus far we've got 12 empty casings. Where are all these weapons?"]
+----
+CNN-80521-5
+['Sure.']
+["But I'm curious to know, did the FBI explain in more detail? Or did they say listen, this is credible information? Did they say this is a guess? How confident do you feel about this warning coming to you?"]
+----
+CNN-103835-7
+['It is.']
+["And is it your sense in Congress that the Dubai Ports World deal has been a bit of a sea change, at least in terms of awareness and attitude toward turning over -- because, let's face it, foreign companies, foreign-government-owned companies, foreign governments, hold trillions of dollars, American dollars, as a result of our buying binge and so-called free trade. They've got some real claims against U.S. assets."]
+----
+CNN-135523-3
+['OK.']
+['Washington, D.C., is on the list. And, obviously, government jobs are available in the district. But what else is out there? Are there any other sectors hiring?']
+----
+CNN-165408-19
+['Correct.']
+['It just is happening early for reasons that we can`t explain.']
+----
+CNN-167270-15
+['OK.']
+["Specifically, your fellow -- fellow Minnesotan, Michele Bachmann, she has yet to officially come forward though she is going to her birthplace of Waterloo in Iowa soon. She hasn't announced she's running for President yet. She's expected to. Why do Minnesotans love her?"]
+----
+CNN-168654-5
+['Yes.']
+["Congress already did all this spending and now you're saying we're not going to pay those bills. So that's something the people fundamentally get irritated with. And because all of this is -- look, $4 trillion, $2 trillion, $4 trillion over ten years, $6 trillion as you proposed over ten years. This is going to be major changes to how Americans live their lives. So that's why people want to know what's going to be accepted for Social Security."]
+----
+CNN-179042-5
+['Exactly.']
+["Recently, I want to tell you, a boss told me that he rescinded, Ellyn, a six figure job offer because of what he found when he did a quick media - social media search on the person. Six figure job offer. He told me we basically Googled the guy, looked for the Facebook page, we pulled it. Well, that's - I mean, that's a cautionary tale and it's true. What are some dos and especially don'ts when you're networking online?"]
+----
+CNN-179557-11
+['Yes.']
+["We -- we've been warned to be patient for your success, sir. But what will you take with you? What's been your proudest and best achievement, do you think, having taken over the company at such a difficult time?"]
+----
+CNN-183650-13
+['Yes.']
+['You do? OK. Instead of the annual payments.']
+----
+CNN-202223-5
+['Correct.']
+['And you have a program specifically geared at trying to target these young men, young boys, trying to I guess catch them before they get into trouble?']
+----
+CNN-213474-14
+["That's right."]
+["What kind of effect are you having globally? In other words, are you taking this beyond the United States? Is this for people in countries that -- you know, many people don't have access to education."]
+----
+CNN-213784-13
+['Yes.']
+["We've talked about this guy before. He had to sit out the first half of yesterday's game because of an investigation involving the sale of autographs. After he came in, he was penalized for unsportsman-like conduct. So his coach benched him. What's the deal with this kid, Terence?"]
+----
+CNN-214005-5
+['Yes, OK.']
+["There's treatment for it like there is now for some people with HIV. There is no sentence for that."]
+----
+CNN-227848-7
+['Yes.']
+['This is not like somewhere in the middle of the Indian Ocean and it still took four years to ultimately say this is what happened.']
+----
+CNN-307924-16
+['Yes.']
+["That's the genius of capitalism, right?"]
+----
+CNN-311010-23
+['Yeah.']
+["He wants to bring down the tax rate for businesses down from about 35 percent to 15 percent, eliminating most deductions. He says he wants to bring it from seven different categories for the individual personal income tax down to three. And he says it's a key campaign promise to make it more simple. Is there any part of what you heard today that you could get behind?"]
+----
+CNN-317484-4
+['Yes.']
+['Because then he has answered the question.']
+----
+CNN-338598-10
+['Yes.']
+["-- that he's been speaking to people."]
+----
+CNN-350380-13
+['Yes.']
+["It's more of going after him and saying, OK, let's see it. And his response to you?"]
+----
+CNN-350774-9
+['Right.']
+["-- remember that. I'm sorry for interrupting. Go on."]
+----
+CNN-351431-26
+['Yes --']
+["Let's face it, the amount of money that the Department of Agriculture has put on the table is not sufficient."]
+----
+CNN-367222-7
+['It is.']
+["And the irony that something that has withstood so much, it's had its up and downs, it's been ransacked, but nothing ever like this. And--"]
+----
+CNN-371733-4
+['Yes.']
+['-- how do you want voters -- how do you want to come across to voters? If there was one takeaway, what do you want it to be?']
+----
+CNN-379834-13
+['Yes.']
+["That is really key and I think we should remember that now a year and a half later that maybe is still what's going on."]
+----
+CNN-392821-11
+['Yes.']
+["and Bernie Sanders has a lot to tout there. He did well in Iowa. Close to winning there. He won in New Hampshire. It's given him a huge boost in fundraising. His campaign reports they're raising an estimated $1.24 million per day in February. But you say his New Hampshire victory also has some signs that should give them pause."]
+----
+CNN-403638-9
+['Yes.']
+['And they were warned in advance that they need to quarantine. In other words, the danger was known.']
+
+
+>>PROTEST
+----
+CNN-130870-5
+['Hey, man.']
+['But there were also people who were stoned in the bible. Do you think you have the right to do that now?']
+----
+CNN-152337-17
+['No.']
+['You testified before the government.']
+----
+CNN-52698-32
+['Yes, but...']
+["And now -- I'm sorry, go ahead."]
+----
+CNN-373508-9
+['Hold on.']
+['You said he wasn\'t for states\' rights but he was opposed to federal imposition of busing by the Department of Education. And he said last night to Kamala Harris, "You would have been able to go to the school the same exact way because it was a local decision made by your city council." How is that not local or states\' rights?']
+
+----
+CNN-11576-20
+["It's simple."]
+['So Braille is easy. Mc']
+----
+CNN-57564-7
+['Bad move.']
+['What were you thinking?']
+
+----
+CNN-31344-3
+['Thank you.']
+['Explain the gist on this project. You put out the word that you wanted letters for more.']
+
+----
+CNN-376411-11
+["That's --"]
+["How did we get to this point where people are just openly deny racism or feel emboldened to be racists, don't have to hide it anymore? How did we get here?"]
+
+
+>>>>>>>>>
+
+----
+CNN-403292-9
+['Right.']
+['Right.']
+----
+NPR-47033-8
+['White.']
+['...white Americans.']
+----
+CNN-390323-17
+['Yes, yes.']
+['Thank you.']
+
+
+Generated Train/Dev/Test split with DISTINCT 25813, 5532, 5531 interviews with 
+ 	 112051, 23945, 23962 (IE, IR)-pairs which makes up 
+	 0.7005026319408845, 0.14969554508058366, 0.14980182297853187
+
+
+Ran 1 test in 74.383s
+
+OK

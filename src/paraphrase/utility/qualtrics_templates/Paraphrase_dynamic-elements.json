@@ -1,0 +1,491 @@
+{"SurveyElements": [
+	{
+		"Element": "BL",
+		"PrimaryAttribute": "Survey Blocks",
+		"Payload": {
+			"10": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_Q-{}",								
+				"ID": "BL_Q-{}",
+				"BlockElements": [
+				{
+					"Type": "Question",
+					"QuestionID": "QID-{}-0"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-R2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-1"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-P"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-T"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-CL"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-{}-Timer"
+				}
+				],
+				"Options": {
+					"BlockLocking": "false",
+					"RandomizeQuestions": "false",
+					"BlockVisibility": "Collapsed"
+				}
+			}
+		}
+	},
+	{
+		"Element": "FL",
+		"PrimaryAttribute": "Survey Flow",
+		"Payload": {
+			"Flow": [{
+						"Type": "Standard",
+						"ID": "BL_Q-{}",
+						"FlowID": "FL_27",
+						"Autofill": []
+					}]
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-0",
+		"SecondaryAttribute": "Given an interview with the summary: ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div><em>Given an interview on {0} with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>{1}<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-0",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Given an interview with the summary: ...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-{}-0"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-R2",
+		"SecondaryAttribute": "Guest \u00a0 Highlight Referred-to text here:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<br><div><strong>{}<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#cc2d35;\">Referred-to<\/span> text here:<\/em><\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-R2",
+			"QuestionType": "HL",
+			"Selector": "Text",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Guest \u00a0 Highlight Referred-to text here:",
+			"Choices": {
+				"1": {
+					"WordIndex": 0,
+					"WordLength": 2,
+					"Word": "So",
+					"Display": "1: So"
+				}
+			},
+			"ChoiceOrder":  [1],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 2,
+			"NextAnswerId": 2,
+			"Answers": {
+				"1": {
+					"Display": "Referred-to Text",
+					"BGColor": "#CC2D35",
+					"TextColor": "#ffffff"
+				}
+			},
+			"ExcludedWords": [],
+			"WordChoiceIds":  [1],
+			"HighlightText": "{}",
+			"QuestionID": "QID-{}-R2",
+			"ReversedColorScale": false,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-{}-C",
+						"QuestionIDFromLocator": "QID-{}-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-1",
+		"SecondaryAttribute": "Guest: ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div><strong>{0}:<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div>{1}<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-1",
+			"QuestionID": "QID-{}-1",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Guest: ...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "NotSelected",
+						"QuestionID": "QID-{}-C",
+						"QuestionIDFromLocator": "QID-{}-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-2",
+		"SecondaryAttribute": "Host: ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<strong>{0}:<\/strong><br \/>\n<br \/>\n{1}",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-2",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Host: ...",
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "NotSelected",
+						"QuestionID": "QID-{}-C",
+						"QuestionIDFromLocator": "QID-{}-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-{}-2"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-P",
+		"SecondaryAttribute": "Host \u00a0 Highlight Paraphrases here:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div><strong>{}<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#ff934f;\">Paraphrases<\/span> here:<\/em><\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-P",
+			"QuestionType": "HL",
+			"Selector": "Text",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Host \u00a0 Highlight Paraphrases here:",
+			"Choices": {
+				"1": {
+					"WordIndex": 0,
+					"WordLength": 1,
+					"Word": "I",
+					"Display": "1: I"
+				}
+			},
+			"ChoiceOrder": [1],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 2,
+			"NextAnswerId": 2,
+			"Answers": {
+				"1": {
+					"Display": "Paraphrase",
+					"BGColor": "#FF934F",
+					"TextColor": "#000000"
+				}
+			},
+			"ExcludedWords": [],
+			"WordChoiceIds": [1],
+			"HighlightText": "{}",
+			"ReversedColorScale": false,
+			"QuestionID": "QID-{}-P",
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-{}-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-{}-C",
+						"QuestionIDFromLocator": "QID-{}-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			}
+		}
+	},	
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"DataExportTag": "Q-{}-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is not paraphrasing anything specific the guest said."
+				},
+				"4": {
+					"Display": "is paraphrasing something specific the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-{}-C",
+			"DefaultChoices": false,
+			"GradingData": [],
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	},	
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-T",
+		"SecondaryAttribute": "----------------------------- \u00a0 Open an overview of the categories in another window: ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div style=\"text-align: center;\">-----------------------------<br>\n&nbsp;<\/div>\n\n<div><em>Open an overview of the categories in another window: <a href=\"https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO\">https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO<\/a><\/em><\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-T",
+			"QuestionID": "QID-{}-T",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "----------------------------- \u00a0 Open an overview of the categories in another window: ...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-CL",
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionID": "QID-{}-CL"
+		}
+	}, {
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-Timer",
+		"SecondaryAttribute": "Timing",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "Timing",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-Timer",
+			"QuestionID": "QID-{}-Timer",
+			"QuestionType": "Timing",
+			"Selector": "PageTimer",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText",
+				"MinSeconds": "0",
+				"MaxSeconds": "0"
+			},
+			"QuestionDescription": "Timing",
+			"Choices": {
+				"1": {
+					"Display": "First Click"
+				},
+				"2": {
+					"Display": "Last Click"
+				},
+				"3": {
+					"Display": "Page Submit"
+				},
+				"4": {
+					"Display": "Click Count"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 20,
+			"NextAnswerId": 1
+		}
+	}
+]}

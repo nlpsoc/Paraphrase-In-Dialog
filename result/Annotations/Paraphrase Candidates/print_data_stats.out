@@ -1,0 +1,34 @@
+OUTPUT FROM print_data_stats.py main call (took some hours to run):
+      id  ...                                            speaker
+0  NPR-1  ...  [FARAI CHIDEYA, host, FARAI CHIDEYA, host, Mr....
+1  NPR-2  ...  [RACHEL MARTIN, HOST, ASHANTI MARTINEZ, LAUREN...
+2  NPR-3  ...  [Mr. JEFF OBAFEMI CARR (Actor, Playwright), CH...
+3  NPR-4  ...  [FARAI CHIDEYA, host, FARAI CHIDEYA, host, Dr....
+4  NPR-5  ...  [FARAI CHIDEYA, host, FARAI CHIDEYA, host, FAR...
+
+[5 rows x 8 columns]
+# Interviews: 34419
+	 # NPR Interviews: 11506
+	 # CNN Interviews: 22913
+# (G,H)-pairs: 148522
+	 # NPR pairs: 49065
+	 # CNN pairs: 99457
+PC stands for paraphrase candidate (i.e., just the reviewed cases), while paraphrases stands for those that were actually classified as paraphrases.
+Reading in 74 unique files, which should add to 3700 unique pairs
+Read in in 250 unique binary ids out of 250
+Read in in 3450 unique hl ids out of 3450
+Read in in 208 unique corr. ids out of 840 files
+Found 3700 unique pairs.
+Updating data with AMBIGUOUS/CONTEXT corrections ...
+# Interviews: 1304
+	 # NPR Interviews: 423
+	 # CNN Interviews: 881
+# (G,H)-pairs: 4450
+	 # NPR pairs: 1550
+	 # CNN pairs: 2900
+# Interviews: 480
+	 # NPR Interviews: 167
+	 # CNN Interviews: 313
+# (G,H)-pairs: 600
+	 # NPR pairs: 218
+	 # CNN pairs: 382

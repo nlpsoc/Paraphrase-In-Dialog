@@ -1,0 +1,7 @@
+	Interview ID	First IE Utterance ID	Consecutive List of IE IDs	Consecutive List of IR IDs	Consecutive List of IE reply IDs to IR
+0	NPR-4	4	[4]	[5]	[6]
+1	NPR-4	6	[6]	[7]	[8]
+2	NPR-4	8	[8]	[9]	[10, 11]
+3	NPR-4	10	[10, 11]	[12]	[13]
+4	NPR-4	13	[13]	[14]	[15, 16]
+5	NPR-4	15	[15, 16]	[17]	[18]

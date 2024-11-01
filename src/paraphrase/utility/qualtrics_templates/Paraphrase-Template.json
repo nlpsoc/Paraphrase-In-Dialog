@@ -1,0 +1,2074 @@
+{
+	"SurveyEntry": {
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"SurveyName": "{}",
+		"SurveyDescription": null,
+		"SurveyOwnerID": "UR_9QSK4XhrWgHS1ZY",
+		"SurveyBrandID": "utrechtuniversity",
+		"DivisionID": "DV_eURwDSPocVcPyCh",
+		"SurveyLanguage": "EN",
+		"SurveyActiveResponseSet": "RS_eRu7GeusOJTEZG6",
+		"SurveyStatus": "Inactive",
+		"SurveyStartDate": "0000-00-00 00:00:00",
+		"SurveyExpirationDate": "0000-00-00 00:00:00",
+		"SurveyCreationDate": "2023-02-28 06:47:32",
+		"CreatorID": "UR_9QSK4XhrWgHS1ZY",
+		"LastModified": "2023-03-01 01:16:38",
+		"LastAccessed": "0000-00-00 00:00:00",
+		"LastActivated": "0000-00-00 00:00:00",
+		"Deleted": null
+	},
+	"SurveyElements": [
+		{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "BL",
+		"PrimaryAttribute": "Survey Blocks",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"0": {
+				"Type": "Default",
+				"Description": "Reminder: Paraphrase Annotation",
+				"ID": "BL_2",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID3"
+				}]
+			},
+			"1": {
+				"Type": "Trash",
+				"ID": "BL_TRASH",
+				"Description": "Trash \/ Unused Questions",
+				"BlockElements": []
+			},
+			"4": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "Welcome Block",
+				"ID": "BL_Welcome",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID156"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QIDPID"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QIDConsent"
+				}]
+			},
+			"5": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "End",
+				"ID": "BL_End",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QIDComment"
+				}],
+				"Options": {
+					"BlockLocking": "false",
+					"RandomizeQuestions": "false",
+					"BlockVisibility": "Collapsed"
+				}
+			},
+			"8": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_AC1",
+				"ID": "BL_AC1",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-AC1-0"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-R2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-1"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-P"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-T"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-CL"
+				}],
+				"Options": {
+					"BlockLocking": false,
+					"RandomizeQuestions": "false",
+					"BlockVisibility": "Collapsed"
+				}
+			},
+			"9": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_AC2",
+				"ID": "BL_AC2",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-AC2-0"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-R2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-1"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-P"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-T"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-CL"
+				}],
+				"Options": {
+					"BlockLocking": false,
+					"RandomizeQuestions": "false",
+					"BlockVisibility": "Expanded"
+				}
+			}			
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "FL",
+		"PrimaryAttribute": "Survey Flow",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"Type": "Root",
+			"FlowID": "FL_1",
+			"Flow": [
+				{
+				"Type": "EmbeddedData",
+				"FlowID": "FL_2",
+				"EmbeddedData": [{
+					"Description": "PROLIFIC_PID",
+					"Type": "Recipient",
+					"Field": "PROLIFIC_PID",
+					"VariableType": "Nominal",
+					"DataVisibility": []
+				}, {
+					"Description": "Q_RESPONSE_TYPE",
+					"Type": "Custom",
+					"Field": "Q_RESPONSE_TYPE",
+					"VariableType": "MultiValueNominal",
+					"DataVisibility": [],
+					"Value": "In Process"
+				}, {
+					"Description": "Quality_Fails",
+					"Type": "Custom",
+					"Field": "Quality_Fails",
+					"VariableType": "String",
+					"DataVisibility": [],
+					"AnalyzeText": false,
+					"Value": "0"
+				}]
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_Welcome",
+				"FlowID": "FL_3",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Branch",
+				"FlowID": "FL_4",
+				"Description": "New Branch",
+				"BranchLogic": {
+					"0": {
+						"0": {
+							"LogicType": "Question",
+							"QuestionID": "QIDConsent",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QIDConsent\/SelectableChoice\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QIDConsent",
+							"LeftOperand": "q:\/\/QIDConsent\/SelectableChoice\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Consent question<\/span> <span class=\"LeftOpDesc\">Yes, begin with the study.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+						},
+						"Type": "If"
+					},
+					"Type": "BooleanExpression"
+				},
+				"Flow": [{
+					"Type": "EndSurvey",
+					"FlowID": "FL_12",
+					"EndingType": "Advanced",
+					"Options": {
+						"Advanced": "true",
+						"SurveyTermination": "DisplayMessage",
+						"EOSMessageLibrary": "UR_9QSK4XhrWgHS1ZY",
+						"EOSMessage": "MS_7Og8PlKhCteovBk"
+					}
+				}]
+			}, 
+			{
+				"Type": "Block",
+				"ID": "BL_2",
+				"FlowID": "FL_5",
+				"Autofill": []
+			},
+			{
+				"Type": "Standard",
+				"ID": "BL_AC1",
+				"FlowID": "FL_14",
+				"Autofill": []
+			}, 	
+			{
+				"Type": "Standard",
+				"ID": "BL_AC2",
+				"FlowID": "FL_15",
+				"Autofill": []
+			},
+			{
+				"Type": "Branch",
+				"FlowID": "FL_16",
+				"Description": "New Branch",
+				"BranchLogic": {
+					"0": {
+						"0": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-C",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-C",
+							"LeftOperand": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+						},
+						"1": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-P",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-P\/SelectableChoice\/20\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-P",
+							"LeftOperand": "q:\/\/QID-AC1-P\/SelectableChoice\/20\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Host (Mary Louise Kelly) &nbsp; Highlight Paraphrases here:<\/span> <span class=\"LeftOpDesc\">2: you - Paraphrase<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"2": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-P",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-P\/SelectableChoice\/44\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-P",
+							"LeftOperand": "q:\/\/QID-AC1-P\/SelectableChoice\/44\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Host (Mary Louise Kelly) &nbsp; Highlight Paraphrases here:<\/span> <span class=\"LeftOpDesc\">3: weren't - Paraphrase<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"3": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-P",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-P\/SelectableChoice\/45\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-P",
+							"LeftOperand": "q:\/\/QID-AC1-P\/SelectableChoice\/45\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Host (Mary Louise Kelly) &nbsp; Highlight Paraphrases here:<\/span> <span class=\"LeftOpDesc\">4: even - Paraphrase<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"4": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-P",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-P\/SelectableChoice\/46\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-P",
+							"LeftOperand": "q:\/\/QID-AC1-P\/SelectableChoice\/46\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Host (Mary Louise Kelly) &nbsp; Highlight Paraphrases here:<\/span> <span class=\"LeftOpDesc\">5: familiar? - Paraphrase<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"5": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-P",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-P\/SelectableChoice\/43\/1",
+							"Operator": "Selected",
+							"QuestionIDFromLocator": "QID-AC1-P",
+							"LeftOperand": "q:\/\/QID-AC1-P\/SelectableChoice\/43\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Host (Mary Louise Kelly) &nbsp; Highlight Paraphrases here:<\/span> <span class=\"LeftOpDesc\">1: So - Paraphrase<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"6": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/63\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/63\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">28: I'm - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"7": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/64\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/64\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">29: like, - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"8": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/65\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/65\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">30: \"Fortnite\", - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"9": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/66\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/66\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">31: what - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"10": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/67\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/67\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">32: is - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"11": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/68\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/68\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">33: that? - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"12": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/69\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/69\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">34: I - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"13": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/70\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/70\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">35: don't - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"14": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/71\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/71\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">36: even - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"15": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/72\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/72\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">37: know - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"16": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/73\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/73\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">38: what - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"17": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/74\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/74\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">39: it - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"18": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectableChoice\/75\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectableChoice\/75\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\">40: is - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"19": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-R2",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-R2\/SelectedAnswerCount\/1",
+							"Operator": "NotEqualTo",
+							"QuestionIDFromLocator": "QID-AC1-R2",
+							"LeftOperand": "q:\/\/QID-AC1-R2\/SelectedAnswerCount\/1",
+							"RightOperand": "13",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">Guest (Khaled Hosseini) &nbsp; Highlight Referred-to text here:<\/span> <span class=\"LeftOpDesc\"> - Referred-to Text<\/span> <span class=\"OpDesc\">Is Not Equal to<\/span> <span class=\"RightOpDesc\"> 13 <\/span>",
+							"Conjuction": "Or"
+						},
+						"Type": "If"
+					},
+					"Type": "BooleanExpression"
+				},
+				"Flow": [{
+					"Type": "Branch",
+					"FlowID": "FL_17",
+					"Description": "New Branch",
+					"BranchLogic": {
+						"0": {
+							"0": {
+								"LogicType": "Question",
+								"QuestionID": "QID-AC2-C",
+								"QuestionIsInLoop": "no",
+								"ChoiceLocator": "q:\/\/QID-AC2-C\/SelectableChoice\/3",
+								"Operator": "NotSelected",
+								"QuestionIDFromLocator": "QID-AC2-C",
+								"LeftOperand": "q:\/\/QID-AC2-C\/SelectableChoice\/3",
+								"Type": "Expression",
+								"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is not paraphrasing anything specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+							},
+							"Type": "If"
+						},
+						"Type": "BooleanExpression"
+					},
+					"Flow": [{
+						"Type": "EndSurvey",
+						"FlowID": "FL_18",
+						"EndingType": "Advanced",
+						"Options": {
+							"Advanced": "true",
+							"SurveyTermination": "Redirect",
+							"EOSRedirectURL": "https:\/\/app.prolific.co\/submissions\/complete?cc=C1GQDKYV"
+						}
+					}, {
+						"Type": "EmbeddedData",
+						"FlowID": "FL_19",
+						"EmbeddedData": [{
+							"Description": "Quality_Fails",
+							"Type": "Custom",
+							"Field": "Quality_Fails",
+							"VariableType": "String",
+							"DataVisibility": [],
+							"AnalyzeText": false,
+							"Value": "2"
+						}]
+					}]
+				}, {
+					"Type": "EmbeddedData",
+					"FlowID": "FL_20",
+					"EmbeddedData": [{
+						"Description": "Quality_Fails",
+						"Type": "Custom",
+						"Field": "Quality_Fails",
+						"VariableType": "String",
+						"DataVisibility": [],
+						"AnalyzeText": false,
+						"Value": "1"
+					}]
+				}]
+			}, 
+			{
+				"Type": "Branch",
+				"FlowID": "FL_21",
+				"Description": "New Branch",
+				"BranchLogic": {
+					"0": {
+						"0": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC2-C",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC2-C\/SelectableChoice\/3",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC2-C",
+							"LeftOperand": "q:\/\/QID-AC2-C\/SelectableChoice\/3",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is not paraphrasing anything specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+						},
+						"Type": "If"
+					},
+					"Type": "BooleanExpression"
+				},
+				"Flow": [{
+					"Type": "EmbeddedData",
+					"FlowID": "FL_23",
+					"EmbeddedData": [{
+						"Description": "Quality_Fails",
+						"Type": "Custom",
+						"Field": "Quality_Fails",
+						"VariableType": "String",
+						"DataVisibility": [],
+						"AnalyzeText": false,
+						"Value": "1"
+					}]
+				}]
+			},											
+			{
+				"Type": "Standard",
+				"ID": "BL_End",
+				"FlowID": "FL_7",
+				"Autofill": []
+			},
+			{
+				"Type": "Branch",
+				"FlowID": "FL_26",
+				"Description": "New Branch",
+				"BranchLogic": {
+					"0": {
+						"0": {
+							"LogicType": "EmbeddedField",
+							"LeftOperand": "Quality_Fails",
+							"Operator": "EqualTo",
+							"RightOperand": "1",
+							"_HiddenExpression": false,
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">If<\/span>  <span class=\"LeftOpDesc\">Quality_Fails<\/span> <span class=\"OpDesc\">Is Equal to<\/span> <span class=\"RightOpDesc\"> 1 <\/span>"
+						},
+						"Type": "If"
+					},
+					"Type": "BooleanExpression"
+				},
+				"Flow": [{
+					"Type": "EndSurvey",
+					"FlowID": "FL_25",
+					"EndingType": "Advanced",
+					"Options": {
+						"Advanced": "true",
+						"SurveyTermination": "Redirect",
+						"EOSRedirectURL": "https:\/\/app.prolific.co\/submissions\/complete?cc=CHTNZ6RC"
+					}
+				}]
+			},			
+			{
+				"Type": "EmbeddedData",
+				"FlowID": "FL_8",
+				"EmbeddedData": [{
+					"Description": "Q_RESPONSE_TYPE",
+					"Type": "Custom",
+					"Field": "Q_RESPONSE_TYPE",
+					"VariableType": "MultiValueNominal",
+					"DataVisibility": [],
+					"Value": "Valid"
+				}]
+			}
+		],
+			"Properties": {
+				"Count": 16,
+				"RemovedFieldsets": []
+			}
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "PL",
+		"PrimaryAttribute": "Preview Link",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"PreviewType": "Brand",
+			"PreviewID": "4407508c-51f3-4c0d-818c-f03d540b3bc6"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SO",
+		"PrimaryAttribute": "Survey Options",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"BackButton": "true",
+			"SaveAndContinue": "true",
+			"SurveyProtection": "PublicSurvey",
+			"BallotBoxStuffingPrevention": "false",
+			"NoIndex": "Yes",
+			"SecureResponseFiles": "true",
+			"SurveyExpiration": "None",
+			"SurveyTermination": "Redirect",
+			"Header": "",
+			"Footer": "",
+			"ProgressBarDisplay": "VerboseText",
+			"PartialData": "+1 week",
+			"ValidationMessage": null,
+			"PreviousButton": " \u2190 ",
+			"NextButton": " \u2192 ",
+			"SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+			"SkinLibrary": "utrechtuniversity",
+			"SkinType": "templated",
+			"Skin": {
+				"brandingId": "381247668",
+				"templateId": "*base",
+				"overrides": null
+			},
+			"NewScoring": 1,
+			"SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+			"ProtectSelectionIds": true,
+			"CustomStyles": [],
+			"EOSMessage": null,
+			"ShowExportTags": "false",
+			"CollectGeoLocation": "false",
+			"PasswordProtection": "No",
+			"AnonymizeResponse": "No",
+			"RefererCheck": "No",
+			"BallotBoxStuffingPreventionBehavior": null,
+			"BallotBoxStuffingPreventionMessage": null,
+			"BallotBoxStuffingPreventionMessageLibrary": null,
+			"BallotBoxStuffingPreventionURL": null,
+			"RecaptchaV3": "true",
+			"ConfirmStart": false,
+			"AutoConfirmStart": false,
+			"UseCustomSurveyLinkCompletedMessage": null,
+			"SurveyLinkCompletedMessage": null,
+			"SurveyLinkCompletedMessageLibrary": null,
+			"ResponseSummary": "No",
+			"EOSMessageLibrary": null,
+			"EOSRedirectURL": "https:\/\/app.prolific.co\/submissions\/complete?cc=C46NEV42",
+			"EmailThankYou": "false",
+			"ThankYouEmailMessageLibrary": null,
+			"ThankYouEmailMessage": null,
+			"ValidateMessage": "false",
+			"ValidationMessageLibrary": null,
+			"InactiveSurvey": "DefaultMessage",
+			"PartialDeletion": null,
+			"PartialDataCloseAfter": "LastActivity",
+			"InactiveMessageLibrary": null,
+			"InactiveMessage": null,
+			"AvailableLanguages": {
+				"EN": []
+			},
+			"SurveyName": "Paraphrase_Template"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "PROJ",
+		"PrimaryAttribute": "CORE",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": "1.1.0",
+		"Payload": {
+			"ProjectCategory": "CORE",
+			"SchemaVersion": "1.1.0"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "STAT",
+		"PrimaryAttribute": "Survey Statistics",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"MobileCompatible": true,
+			"ID": "Survey Statistics"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "QC",
+		"PrimaryAttribute": "Survey Question Count",
+		"SecondaryAttribute": "155",
+		"TertiaryAttribute": null,
+		"Payload": null
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QIDConsent",
+		"SecondaryAttribute": "Consent question",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>Your responses to the survey tasks (without the Prolific ID) will be used for research and can be distributed publicly.<br><br>Do you consent to this?<br><\/div>",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"Configuration": {
+				"QuestionDescriptionOption": "SpecifyLabel"
+			},
+			"QuestionDescription": "Consent question",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"SubSelector": "TX",
+			"Choices": {
+				"1": {
+					"Display": "Yes, start with the survey."
+				},
+				"2": {
+					"Display": "No, take me back."
+				}
+			},
+			"ChoiceOrder": ["1", "2"],
+			"QuestionText_Unsafe": "<div>In this study, we do not collect any sensitive data from you. The only personalized data we save is your prolific id. We will only make use of the id for communication with you within the prolific platform. However, your responses (without the prolific id) will be used for research and can be distributed publicly.<br><br>Do you consent to this?<br><\/div>",
+			"DataExportTag": "Q-Consent",
+			"QuestionID": "QIDConsent",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"NextChoiceId": 3,
+			"NextAnswerId": 1
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "RS",
+		"PrimaryAttribute": "RS_eRu7GeusOJTEZG6",
+		"SecondaryAttribute": "Default Response Set",
+		"TertiaryAttribute": null,
+		"Payload": null
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QIDComment",
+		"SecondaryAttribute": "End comment question",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "Thank you for your participation.<br><br>Do you have any further comments?",
+			"QuestionType": "TE",
+			"Selector": "ESTB",
+			"Configuration": {
+				"QuestionDescriptionOption": "SpecifyLabel",
+				"InputWidth": 680,
+				"InputHeight": 196
+			},
+			"QuestionDescription": "End comment question",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"QuestionText_Unsafe": "Thank you for your participation.<br><br>Do you have any comments?",
+			"DataExportTag": "Q-Comment",
+			"QuestionID": "QIDComment",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"NextChoiceId": 3,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"DefaultChoices": false,
+			"Choices": {
+				"1": {
+					"Display": "Click to write Form Field 1"
+				}
+			},
+			"ChoiceOrder": ["1"],
+			"GradingData": []
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID3",
+		"SecondaryAttribute": "You can find an overview of the task in the following Table:\u00a0https:\/\/survey.uu.nl\/jfe\/form\/SV_ePO..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>You can find an overview of the task in the following Table:&nbsp;<em><a href=\"https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO\">https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO<\/a><\/em><br>\n<br>\nThe below description is (only) a reminder of what you have already seen.<\/div><div><br><\/div><div>-------<br><\/div><div>\n&nbsp;\n<div>In every question, you will see a news interview summary, a statement said by the interview guest, followed by a reply from the interview host. We ask you to highlight the guest and host text for paraphrases.<\/div>\n\n<div>&nbsp;<\/div>\n\n<div>For example:<\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Summary:<\/strong> Fresh Prince Star Alfonso Ribeiro Sues Over Dance Moves; Rapper 2 Milly Alleges His Dance Moves were Copied.<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Guest:&nbsp;<\/strong>I guess it was season 5 when they premiered it in the game. A bunch of DMs, a bunch of Twitter requests, e-mails, everything was like, you, your game is in the dance, you need to sue, \"Fortnite\" stole it. Even like big artists, major artists like Joe Buttons and stuff, they have their own like show, daily struggle, they say, you, you must sue \"Fortnite\", and <span style=\"background-color:#cc2d35;\">I'm like, \"Fortnite\", what is that? I don't even know what it is<\/span> --<br>\n<strong>Host: <\/strong>So <span style=\"background-color:#ff934f;\">you weren't even familiar<\/span>?<\/div>\n\n<div style=\"margin-left: 40px;\">&nbsp;<\/div>\n\n<div><br>\nA <strong>Paraphrase (<span style=\"background-color:#ff934f;\">orange<\/span>)<\/strong> is a <u><strong>rewording or repetition<\/strong><\/u> of content in the guest's statement. It should <u><strong>stand out<\/strong><\/u> as aiming to rephrase the guest's statement.<br>\n<br>\nWe also ask you to highlight the section of the guest statement that the host paraphrases in <strong><span style=\"background-color:#cc2d35;\">red<\/span><\/strong>.<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-Reminder",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "You can find an overview of the task in the following Table:\u00a0https:\/\/survey.uu.nl\/jfe\/form\/SV_ePO...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID3"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID156",
+		"SecondaryAttribute": "This is the second of our two-part study. In this part you will use what you learned...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>This is a follow-up of the previous paraphrase training study. In this part you will use what you learned before.<\/div>\n\n<div>&nbsp;<\/div>\nThis study is meant to be done on a laptop or desktop PC. Some functionalities might not work on devices with touch screens.",
+			"DefaultChoices": false,
+			"DataExportTag": "Q190",
+			"QuestionID": "QID156",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "This is the second of our two-part study. In this part you will use what you learned...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1
+		}
+	}, 		
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QIDPID",
+		"SecondaryAttribute": "Prolific ID question",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>&nbsp;Please enter your Prolific ID here:<\/div>",
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"Configuration": {
+				"QuestionDescriptionOption": "SpecifyLabel"
+			},
+			"QuestionDescription": "Prolific ID question",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "RequestResponse",
+					"ForceResponseType": "RequestResponse",
+					"Type": "MinChar",
+					"MinChars": "1"
+				}
+			},
+			"Language": [],
+			"DefaultChoices": {
+				"TEXT": {
+					"Text": "${e:\/\/Field\/PROLIFIC_PID}"
+				}
+			},
+			"QuestionText_Unsafe": "<div>Before you start, please switch off phone\/ e-mail\/ music so you can focus on this study.<\/div><br>Thank you!<br><br>Please enter your Prolific ID here:",
+			"DataExportTag": "Q-PID",
+			"QuestionID": "QIDPID",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			}
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-0",
+		"SecondaryAttribute": "The following is an attention check. Select \"is paraphrasing something specific the guest said.\"...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "The following is an attention check. Select \"is paraphrasing something specific the guest said.\" and then highlight precisely \"I'm like, \"Fortnite\", what is that? I don't even know what it is\" as Referred-to Text and \"you weren't even familiar?\" as Paraphrase.<br>\n&nbsp;\n<div><em>Given an interview on 2011-4-24 with the summary:<\/em><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div class=\"storytext storylocation linkLocation\" id=\"storytext\">\n<p><strong>Fresh Prince Star Alfonso Ribeiro Sues Over Dance Moves; Rapper 2 Milly Alleges His Dance Moves were Copied.<\/strong><br>\n&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "The following is an attention check. Select \"is paraphrasing something specific the guest said.\"...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "<div><em>Given an interview on 2016-08-30 with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>Author Khaled Hosseini has made a career out of writing about his native Afghanistan, and now he is using his literary fame to draw attention to the plight of refugees in Afghanistan. He speaks with guest host Mary Louise Kelly about his visit there as a goodwill envoy for the United Nations High Commissioner for Refugees in Afghanistan.<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>",
+			"DataExportTag": "Q-AC1-0",
+			"QuestionID": "QID-AC1-0"
+		}
+	}, 	
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-R2",
+		"SecondaryAttribute": "Guest (Khaled Hosseini) \u00a0 Highlight Referred-to text here:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<br><div><strong>Guest (Khaled Hosseini)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#cc2d35;\">Referred-to<\/span> text here:<\/em><\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "HL",
+			"Selector": "Text",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Guest (Khaled Hosseini) \u00a0 Highlight Referred-to text here:",
+			"Choices": {
+				"2": {
+					"WordIndex": 65,
+					"WordLength": 4,
+					"Word": "they",
+					"Display": "12: they"
+				},
+				"7": {
+					"WordIndex": 70,
+					"WordLength": 4,
+					"Word": "have",
+					"Display": "13: have"
+				},
+				"20": {
+					"WordIndex": 127,
+					"WordLength": 3,
+					"Word": "you",
+					"Display": "23: you"
+				},
+				"21": {
+					"WordIndex": 131,
+					"WordLength": 4,
+					"Word": "must",
+					"Display": "24: must"
+				},
+				"40": {
+					"WordIndex": 0,
+					"WordLength": 4,
+					"Word": "Even",
+					"Display": "1: Even"
+				},
+				"41": {
+					"WordIndex": 5,
+					"WordLength": 4,
+					"Word": "like",
+					"Display": "2: like"
+				},
+				"42": {
+					"WordIndex": 10,
+					"WordLength": 3,
+					"Word": "big",
+					"Display": "3: big"
+				},
+				"43": {
+					"WordIndex": 14,
+					"WordLength": 8,
+					"Word": "artists,",
+					"Display": "4: artists,"
+				},
+				"44": {
+					"WordIndex": 23,
+					"WordLength": 5,
+					"Word": "major",
+					"Display": "5: major"
+				},
+				"45": {
+					"WordIndex": 29,
+					"WordLength": 7,
+					"Word": "artists",
+					"Display": "6: artists"
+				},
+				"46": {
+					"WordIndex": 37,
+					"WordLength": 4,
+					"Word": "like",
+					"Display": "7: like"
+				},
+				"47": {
+					"WordIndex": 42,
+					"WordLength": 3,
+					"Word": "Joe",
+					"Display": "8: Joe"
+				},
+				"48": {
+					"WordIndex": 46,
+					"WordLength": 7,
+					"Word": "Buttons",
+					"Display": "9: Buttons"
+				},
+				"49": {
+					"WordIndex": 54,
+					"WordLength": 3,
+					"Word": "and",
+					"Display": "10: and"
+				},
+				"50": {
+					"WordIndex": 58,
+					"WordLength": 6,
+					"Word": "stuff,",
+					"Display": "11: stuff,"
+				},
+				"51": {
+					"WordIndex": 75,
+					"WordLength": 5,
+					"Word": "their",
+					"Display": "14: their"
+				},
+				"52": {
+					"WordIndex": 81,
+					"WordLength": 3,
+					"Word": "own",
+					"Display": "15: own"
+				},
+				"53": {
+					"WordIndex": 85,
+					"WordLength": 4,
+					"Word": "like",
+					"Display": "16: like"
+				},
+				"54": {
+					"WordIndex": 90,
+					"WordLength": 5,
+					"Word": "show,",
+					"Display": "17: show,"
+				},
+				"55": {
+					"WordIndex": 96,
+					"WordLength": 5,
+					"Word": "daily",
+					"Display": "18: daily"
+				},
+				"56": {
+					"WordIndex": 102,
+					"WordLength": 9,
+					"Word": "struggle,",
+					"Display": "19: struggle,"
+				},
+				"57": {
+					"WordIndex": 112,
+					"WordLength": 4,
+					"Word": "they",
+					"Display": "20: they"
+				},
+				"58": {
+					"WordIndex": 117,
+					"WordLength": 4,
+					"Word": "say,",
+					"Display": "21: say,"
+				},
+				"59": {
+					"WordIndex": 122,
+					"WordLength": 4,
+					"Word": "you,",
+					"Display": "22: you,"
+				},
+				"60": {
+					"WordIndex": 136,
+					"WordLength": 3,
+					"Word": "sue",
+					"Display": "25: sue"
+				},
+				"61": {
+					"WordIndex": 140,
+					"WordLength": 11,
+					"Word": "\"Fortnite\",",
+					"Display": "26: \"Fortnite\","
+				},
+				"62": {
+					"WordIndex": 152,
+					"WordLength": 3,
+					"Word": "and",
+					"Display": "27: and"
+				},
+				"63": {
+					"WordIndex": 156,
+					"WordLength": 3,
+					"Word": "I'm",
+					"Display": "28: I'm"
+				},
+				"64": {
+					"WordIndex": 160,
+					"WordLength": 5,
+					"Word": "like,",
+					"Display": "29: like,"
+				},
+				"65": {
+					"WordIndex": 166,
+					"WordLength": 11,
+					"Word": "\"Fortnite\",",
+					"Display": "30: \"Fortnite\","
+				},
+				"66": {
+					"WordIndex": 178,
+					"WordLength": 4,
+					"Word": "what",
+					"Display": "31: what"
+				},
+				"67": {
+					"WordIndex": 183,
+					"WordLength": 2,
+					"Word": "is",
+					"Display": "32: is"
+				},
+				"68": {
+					"WordIndex": 186,
+					"WordLength": 5,
+					"Word": "that?",
+					"Display": "33: that?"
+				},
+				"69": {
+					"WordIndex": 192,
+					"WordLength": 1,
+					"Word": "I",
+					"Display": "34: I"
+				},
+				"70": {
+					"WordIndex": 194,
+					"WordLength": 5,
+					"Word": "don't",
+					"Display": "35: don't"
+				},
+				"71": {
+					"WordIndex": 200,
+					"WordLength": 4,
+					"Word": "even",
+					"Display": "36: even"
+				},
+				"72": {
+					"WordIndex": 205,
+					"WordLength": 4,
+					"Word": "know",
+					"Display": "37: know"
+				},
+				"73": {
+					"WordIndex": 210,
+					"WordLength": 4,
+					"Word": "what",
+					"Display": "38: what"
+				},
+				"74": {
+					"WordIndex": 215,
+					"WordLength": 2,
+					"Word": "it",
+					"Display": "39: it"
+				},
+				"75": {
+					"WordIndex": 218,
+					"WordLength": 2,
+					"Word": "is",
+					"Display": "40: is"
+				},
+				"76": {
+					"WordIndex": 221,
+					"WordLength": 2,
+					"Word": "--",
+					"Display": "41: --"
+				}
+			},
+			"ChoiceOrder": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 2, 7, 51, 52, 53, 54, 55, 56, 57, 58, 59, 20, 21, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 77,
+			"NextAnswerId": 2,
+			"Answers": {
+				"1": {
+					"Display": "Referred-to Text",
+					"BGColor": "#CC2D35",
+					"TextColor": "#ffffff"
+				}
+			},
+			"ExcludedWords": [],
+			"WordChoiceIds": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 2, 7, 51, 52, 53, 54, 55, 56, 57, 58, 59, 20, 21, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76],
+			"HighlightText": "Even like big artists, major artists like Joe Buttons and stuff, they have their own like show, daily struggle, they say, you, you must sue \"Fortnite\", and I'm like, \"Fortnite\", what is that? I don't even know what it is --",
+			"ReversedColorScale": false,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-AC1-C",
+						"QuestionIDFromLocator": "QID-AC1-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"QuestionText_Unsafe": "<br><div><strong>Guest (Khaled Hosseini)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#cc2d35;\">Referred-to<\/span> text here:<\/em><\/div>",
+			"DataExportTag": "Q-AC1-R2",
+			"QuestionID": "QID-AC1-R2"
+		}
+	}, 	
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-1",
+		"SecondaryAttribute": "Guest (TERRENCE FERGUSON, RAPPER): \u00a0 Even like big artists, major artists like Joe Buttons and st..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div><strong>Guest (TERRENCE FERGUSON, RAPPER):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div>Even like big artists, major artists like Joe Buttons and stuff, they have their own like show, daily struggle, they say, you, you must sue &quot;Fortnite&quot;, and I&#39;m like, &quot;Fortnite&quot;, what is that? I don&#39;t even know what it is --<\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Guest (TERRENCE FERGUSON, RAPPER): \u00a0 Even like big artists, major artists like Joe Buttons and st...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "NotSelected",
+						"QuestionID": "QID-AC1-C",
+						"QuestionIDFromLocator": "QID-AC1-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"QuestionText_Unsafe": "<div><strong>Guest (Khaled Hosseini):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div>So they also allow people to have - you know, there's a saying in Afghanistan that go hungry if you must but may you never go homeless. And that's why I've decided to focus on the issue of shelter.<\/div>",
+			"DataExportTag": "Q-AC1-1",
+			"QuestionID": "QID-AC1-1"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-2",
+		"SecondaryAttribute": "Host (QUEST): So you weren't even familiar?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<strong>Host (QUEST):<\/strong><br \/>\n<br \/>\nSo you weren&#39;t even familiar?",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Host (QUEST): So you weren't even familiar?",
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "NotSelected",
+						"QuestionID": "QID-AC1-C",
+						"QuestionIDFromLocator": "QID-AC1-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "<strong>Host (Mary Louise Kelly):<\/strong><br \/>\n<br \/>\nI know you've been going there the past few years and trying to help move along this process. Are you able to see progress? Are you able to see that things look different, better than they did a couple of years ago?",
+			"DataExportTag": "Q-AC1-2",
+			"QuestionID": "QID-AC1-2"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-P",
+		"SecondaryAttribute": "Host (Mary Louise Kelly) \u00a0 Highlight Paraphrases here:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div><strong>Host (Mary Louise Kelly)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#ff934f;\">Paraphrases<\/span> here:<\/em><\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "HL",
+			"Selector": "Text",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Host (Mary Louise Kelly) \u00a0 Highlight Paraphrases here:",
+			"Choices": {
+				"20": {
+					"WordIndex": 3,
+					"WordLength": 3,
+					"Word": "you",
+					"Display": "2: you"
+				},
+				"43": {
+					"WordIndex": 0,
+					"WordLength": 2,
+					"Word": "So",
+					"Display": "1: So"
+				},
+				"44": {
+					"WordIndex": 7,
+					"WordLength": 7,
+					"Word": "weren't",
+					"Display": "3: weren't"
+				},
+				"45": {
+					"WordIndex": 15,
+					"WordLength": 4,
+					"Word": "even",
+					"Display": "4: even"
+				},
+				"46": {
+					"WordIndex": 20,
+					"WordLength": 9,
+					"Word": "familiar?",
+					"Display": "5: familiar?"
+				}
+			},
+			"ChoiceOrder": [43, 20, 44, 45, 46],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"ForceResponseType": "RequestResponse",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 47,
+			"NextAnswerId": 2,
+			"Answers": {
+				"1": {
+					"Display": "Paraphrase",
+					"BGColor": "#FF934F",
+					"TextColor": "#000000"
+				}
+			},
+			"ExcludedWords": [],
+			"WordChoiceIds": [43, 20, 44, 45, 46],
+			"HighlightText": "So you weren't even familiar?",
+			"ReversedColorScale": false,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-AC1-C",
+						"QuestionIDFromLocator": "QID-AC1-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"QuestionText_Unsafe": "<div><strong>Host (Mary Louise Kelly)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#ff934f;\">Paraphrases<\/span> here:<\/em><\/div>",
+			"DataExportTag": "Q-AC1-P",
+			"QuestionID": "QID-AC1-P"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is not paraphrasing anything specific the guest said."
+				},
+				"4": {
+					"Display": "is paraphrasing something specific the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"DefaultChoices": false,
+			"GradingData": [],
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"QuestionText_Unsafe": "In the reply, the host ...<br>",
+			"DataExportTag": "Q-AC1-C",
+			"QuestionID": "QID-AC1-C"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-T",
+		"SecondaryAttribute": "----------------------------- \u00a0 Open an overview of the categories in another window: https:\/\/sur..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div style=\"text-align: center;\">-----------------------------<br>\n&nbsp;<\/div>\n\n<div><em>Open an overview of the categories in another window: <a href=\"https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO\">https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO<\/a><\/em><\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "----------------------------- \u00a0 Open an overview of the categories in another window: https:\/\/sur...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "<div style=\"text-align: center;\">-----------------------------<br>\n&nbsp;<\/div>\n\n<div><em>Open an overview of the categories in another window: <a href=\"https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO\">https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO<\/a><\/em><\/div>",
+			"DataExportTag": "Q-AC1-T",
+			"QuestionID": "QID-AC1-T"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionText_Unsafe": "<em>Do you have comments on this question?<\/em>",
+			"DataExportTag": "Q-AC1-CL",
+			"QuestionID": "QID-AC1-CL"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-0",
+		"SecondaryAttribute": "The following is an attention check. Select \"is not paraphrasing anything specific the guest said...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>The following is an attention check. Select \"is not paraphrasing anything specific the guest said.\".<br>\n&nbsp;\n<div><em>Given an interview on 2011-4-24 with the summary:<\/em><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>The Rising Interest Rate Environment<\/strong><br>\n&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "The following is an attention check. Select \"is not paraphrasing anything specific the guest said...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "<div><em>Given an interview on 2016-08-30 with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>Author Khaled Hosseini has made a career out of writing about his native Afghanistan, and now he is using his literary fame to draw attention to the plight of refugees in Afghanistan. He speaks with guest host Mary Louise Kelly about his visit there as a goodwill envoy for the United Nations High Commissioner for Refugees in Afghanistan.<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>",
+			"DataExportTag": "Q-AC2-0",
+			"QuestionID": "QID-AC2-0"
+		}
+	}, 		 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-R2",
+		"SecondaryAttribute": "Guest (DOUG FLYNN, CERTIFIED FINANCIAL PLANNER, FLYNN ZITO CAPITAL MANAGEMENT) \u00a0 Highlight Referr..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<br><div><strong>Guest (DOUG FLYNN, CERTIFIED FINANCIAL PLANNER, FLYNN ZITO CAPITAL MANAGEMENT)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#cc2d35;\">Referred-to<\/span> text here:<\/em><\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "HL",
+			"Selector": "Text",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Guest (DOUG FLYNN, CERTIFIED FINANCIAL PLANNER, FLYNN ZITO CAPITAL MANAGEMENT) \u00a0 Highlight Referr...",
+			"Choices": {
+				"40": {
+					"WordIndex": 0,
+					"WordLength": 6,
+					"Word": "That's",
+					"Display": "1: That's"
+				},
+				"41": {
+					"WordIndex": 7,
+					"WordLength": 6,
+					"Word": "right,",
+					"Display": "2: right,"
+				},
+				"42": {
+					"WordIndex": 14,
+					"WordLength": 2,
+					"Word": "--",
+					"Display": "3: --"
+				}
+			},
+			"ChoiceOrder": [40, 41, 42],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 43,
+			"NextAnswerId": 2,
+			"Answers": {
+				"1": {
+					"Display": "Referred-to Text",
+					"BGColor": "#CC2D35",
+					"TextColor": "#ffffff"
+				}
+			},
+			"ExcludedWords": [],
+			"WordChoiceIds": [40, 41, 42],
+			"HighlightText": "That's right, --",
+			"ReversedColorScale": false,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-AC2-C",
+						"QuestionIDFromLocator": "QID-AC2-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"QuestionText_Unsafe": "<br><div><strong>Guest (Khaled Hosseini)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#cc2d35;\">Referred-to<\/span> text here:<\/em><\/div>",
+			"DataExportTag": "Q-AC2-R2",
+			"QuestionID": "QID-AC2-R2"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-1",
+		"SecondaryAttribute": "Guest (DOUG FLYNN, CERTIFIED FINANCIAL PLANNER, FLYNN ZITO CAPITAL MANAGEMENT): \u00a0 That's right, --",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div><strong>Guest (DOUG FLYNN, CERTIFIED FINANCIAL PLANNER, FLYNN ZITO CAPITAL MANAGEMENT):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div>That&#39;s right, --<\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Guest (DOUG FLYNN, CERTIFIED FINANCIAL PLANNER, FLYNN ZITO CAPITAL MANAGEMENT): \u00a0 That's right, --",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "NotSelected",
+						"QuestionID": "QID-AC2-C",
+						"QuestionIDFromLocator": "QID-AC2-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"QuestionText_Unsafe": "<div><strong>Guest (Khaled Hosseini):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div>So they also allow people to have - you know, there's a saying in Afghanistan that go hungry if you must but may you never go homeless. And that's why I've decided to focus on the issue of shelter.<\/div>",
+			"DataExportTag": "Q-AC2-1",
+			"QuestionID": "QID-AC2-1"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-2",
+		"SecondaryAttribute": "Host (ALI VELSHI, HOST): And that's going to end. The Fed said so.",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<strong>Host (ALI VELSHI, HOST):<\/strong><br \/>\n<br \/>\nAnd that&#39;s going to end. The Fed said so.",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Host (ALI VELSHI, HOST): And that's going to end. The Fed said so.",
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "NotSelected",
+						"QuestionID": "QID-AC2-C",
+						"QuestionIDFromLocator": "QID-AC2-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "<strong>Host (Mary Louise Kelly):<\/strong><br \/>\n<br \/>\nI know you've been going there the past few years and trying to help move along this process. Are you able to see progress? Are you able to see that things look different, better than they did a couple of years ago?",
+			"DataExportTag": "Q-AC2-2",
+			"QuestionID": "QID-AC2-2"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-P",
+		"SecondaryAttribute": "Host (ALI VELSHI, HOST) \u00a0 Highlight Paraphrases here:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div><strong>Host (ALI VELSHI, HOST)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#ff934f;\">Paraphrases<\/span> here:<\/em><\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "HL",
+			"Selector": "Text",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Host (ALI VELSHI, HOST) \u00a0 Highlight Paraphrases here:",
+			"Choices": {
+				"5": {
+					"WordIndex": 11,
+					"WordLength": 5,
+					"Word": "going",
+					"Display": "3: going"
+				},
+				"13": {
+					"WordIndex": 17,
+					"WordLength": 2,
+					"Word": "to",
+					"Display": "4: to"
+				},
+				"43": {
+					"WordIndex": 0,
+					"WordLength": 3,
+					"Word": "And",
+					"Display": "1: And"
+				},
+				"44": {
+					"WordIndex": 4,
+					"WordLength": 6,
+					"Word": "that's",
+					"Display": "2: that's"
+				},
+				"45": {
+					"WordIndex": 20,
+					"WordLength": 4,
+					"Word": "end.",
+					"Display": "5: end."
+				},
+				"46": {
+					"WordIndex": 25,
+					"WordLength": 3,
+					"Word": "The",
+					"Display": "6: The"
+				},
+				"47": {
+					"WordIndex": 29,
+					"WordLength": 3,
+					"Word": "Fed",
+					"Display": "7: Fed"
+				},
+				"48": {
+					"WordIndex": 33,
+					"WordLength": 4,
+					"Word": "said",
+					"Display": "8: said"
+				},
+				"49": {
+					"WordIndex": 38,
+					"WordLength": 3,
+					"Word": "so.",
+					"Display": "9: so."
+				}
+			},
+			"ChoiceOrder": [43, 44, 5, 13, 45, 46, 47, 48, 49],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"ForceResponseType": "RequestResponse",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 50,
+			"NextAnswerId": 2,
+			"Answers": {
+				"1": {
+					"Display": "Paraphrase",
+					"BGColor": "#FF934F",
+					"TextColor": "#000000"
+				}
+			},
+			"ExcludedWords": [],
+			"WordChoiceIds": [43, 44, 5, 13, 45, 46, 47, 48, 49],
+			"HighlightText": "And that's going to end. The Fed said so.",
+			"ReversedColorScale": false,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is paraphrasing something specific the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-AC2-C\/SelectableChoice\/4",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-AC2-C",
+						"QuestionIDFromLocator": "QID-AC2-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"QuestionText_Unsafe": "<div><strong>Host (Mary Louise Kelly)<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div><em>Highlight <span style=\"background-color:#ff934f;\">Paraphrases<\/span> here:<\/em><\/div>",
+			"DataExportTag": "Q-AC2-P",
+			"QuestionID": "QID-AC2-P"
+		}
+	},	
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is not paraphrasing anything specific the guest said."
+				},
+				"4": {
+					"Display": "is paraphrasing something specific the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"DefaultChoices": false,
+			"GradingData": [],
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"QuestionText_Unsafe": "In the reply, the host ...<br>",
+			"DataExportTag": "Q-AC2-C",
+			"QuestionID": "QID-AC2-C"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-T",
+		"SecondaryAttribute": "----------------------------- \u00a0 Open an overview of the categories in another window: https:\/\/sur..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div style=\"text-align: center;\">-----------------------------<br>\n&nbsp;<\/div>\n\n<div><em>Open an overview of the categories in another window: <a href=\"https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO\">https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO<\/a><\/em><\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "----------------------------- \u00a0 Open an overview of the categories in another window: https:\/\/sur...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "<div style=\"text-align: center;\">-----------------------------<br>\n&nbsp;<\/div>\n\n<div><em>Open an overview of the categories in another window: <a href=\"https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO\">https:\/\/survey.uu.nl\/jfe\/form\/SV_ePOnF9kxd1o59cO<\/a><\/em><\/div>",
+			"DataExportTag": "Q-AC2-T",
+			"QuestionID": "QID-AC2-T"
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionText_Unsafe": "<em>Do you have comments on this question?<\/em>",
+			"DataExportTag": "Q-AC2-CL",
+			"QuestionID": "QID-AC2-CL"
+		}
+	}
+]
+}

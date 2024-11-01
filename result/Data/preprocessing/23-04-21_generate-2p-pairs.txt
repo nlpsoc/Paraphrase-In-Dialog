@@ -1,0 +1,754 @@
+      id  ...                                            speaker
+0  NPR-1  ...  [FARAI CHIDEYA, host, FARAI CHIDEYA, host, Mr....
+1  NPR-2  ...  [RACHEL MARTIN, HOST, ASHANTI MARTINEZ, LAUREN...
+2  NPR-3  ...  [Mr. JEFF OBAFEMI CARR (Actor, Playwright), CH...
+3  NPR-4  ...  [FARAI CHIDEYA, host, FARAI CHIDEYA, host, Dr....
+4  NPR-5  ...  [FARAI CHIDEYA, host, FARAI CHIDEYA, host, FAR...
+
+[5 rows x 8 columns]
+Starting to filter for only 2-person interviews from an initial interview dataset of size 463596 with 49420 NPR interviews and 414176 CNN interviews...
+Example 1 of host not in the right place
+	['Ms. JACQUELINE BISHOP', 'FARAI CHIDEYA, host']
+Example 1 of not 2 speakers:
+	{'ED GORDON, host', 'Ms. BRAZILE', 'JUAN WILLIAMS, reporting', 'Mr. ROBERT TRAYNHAM (Political Strategist)'}
+Example 1 of host not in the right place
+	['STEVE INSKEEP, Host', 'LINDA WERTHEIMER, Host']
+Example 1 of host not in the right place
+	['PATTI LABELLE', 'STEVE INSKEEP, HOST']
+Example 1 of host not in the right place
+	['HARDROCK GUNTER', 'SCOTT SIMON, HOST']
+Example 2 of not 2 speakers:
+	{'RACHEL MARTIN, HOST', 'JON SHARP', 'SHANKAR VEDANTAM, BYLINE', 'BRUCE ULRICH'}
+Example 1 of host not in the right place
+	['MARY LOUISE KELLY, HOST', 'RACHEL MARTIN, HOST']
+Example 3 of not 2 speakers:
+	{'ARI SHAPIRO, HOST', 'MATTHEW CAPPUCCI', 'KELLY MCEVERS, HOST'}
+Example 1 of host not in the right place
+	['STEVE INSKEEP, HOST', 'RACHEL MARTIN, HOST']
+Example 1 of host not in the right place
+	['CLARK DELEON', 'ALEX CHADWICK, host']
+Example 4 of not 2 speakers:
+	{'JOE DUNFORD', 'TOM BOWMAN, BYLINE', 'KELLY MCEVERS, HOST'}
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, HOST', 'STEVE INSKEEP, HOST']
+Example 1 of host not in the right place
+	['LINDA WERTHEIMER, HOST', 'DAVID GREENE, HOST']
+Example 1 of host not in the right place
+	['LINDA WERTHEIMER, HOST', 'RENEE MONTAGNE, HOST']
+Example 5 of not 2 speakers:
+	{'JEREMY HUNTER', 'CAMERON KANE', 'LISA NAPOLI, BYLINE', 'BILL TABER', 'RENEE MONTAGNE, HOST'}
+Example 1 of host not in the right place
+	['STEVE INSKEEP, HOST', 'DAVID GREENE, HOST']
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, HOST', 'STEVE INSKEEP, HOST']
+Example 1 of host not in the right place
+	['STEVE INSKEEP, host', 'MARY LOUISE KELLY, host']
+Example 1 of host not in the right place
+	['MELISSA BLOCK, HOST', 'ROBERT SIEGEL, HOST']
+Example 1 of host not in the right place
+	['DEBORAH AMOS, Host', 'STEVE INSKEEP, Host']
+Example 6 of not 2 speakers:
+	{'ANTHONY KENNEDY', 'MELISSA BLOCK, Host', 'CHRIS MURPHY', 'NOAH FELDMAN', 'STEPHEN BRYER', 'HERMAN SCHWARTZ WASHINGTON COLLEGE OF LAW', 'RUSSELL WHEELER', 'STEPHEN GILLERS', 'NINA TOTENBERG'}
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, Host', 'STEVE INSKEEP, Host']
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, host', 'STEVE INSKEEP, host']
+Example 1 of host not in the right place
+	['ROBERT SIEGEL, host', 'MICHELE NORRIS, host']
+Example 1 of host not in the right place
+	['Mr. RICHARD SHERMAN (Songwriter)', 'RENEE MONTAGNE, host']
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, Host', 'STEVE INSKEEP, Host']
+Example 1 of host not in the right place
+	['MADELEINE BRAND, Host', 'ROBERT SIEGEL, Host']
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, Host', 'STEVE INSKEEP, Host']
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, host', 'STEVE INSKEEP, host']
+Example 1 of host not in the right place
+	['STEVE INSKEEP, host', 'RENEE MONTAGNE, host']
+Example 1 of host not in the right place
+	['MICHELE NORRIS, host', 'MELISSA BLOCK, host']
+Example 1 of host not in the right place
+	['RENEE MONTAGNE, host', 'STEVE INSKEEP, host']
+Example 1 of host not in the right place
+	['ROBERT SIEGEL, host', 'MICHELE NORRIS, host']
+Example 1 of host not in the right place
+	['TED KOPPEL', 'ROBERT SIEGEL, host']
+Example 1 of host not in the right place
+	['ROBERT SIEGEL, host', 'MICHELE NORRIS, host']
+Example 1 of host not in the right place
+	['DANIEL SCHORR', 'MELISSA BLOCK, Host']
+Example 7 of not 2 speakers:
+	{'SHELLEY WALCOTT, CO-HOST', 'ANNOUNCER', "MARISLEYSIS GONZALEZ, ELIAN GONZALEZ'S COUSIN", 'JESPER KOLL, MERRILL LYNCH JAPAN', 'ED COET, TEACHER', 'STEVE HARRIGAN, CNN CORRESPONDENT (voice-over)', 'MARK POTTER, CNN CORRESPONDENT (voice-over)', 'STUDENTS', 'UNIDENTIFIED FEMALE', 'JEFF MANBER, MIR CORP.', 'EMILY FEISTRIZER, PRESIDENT, NATL. CENTER FOR EDUCATION INFORMATION', 'CNN NEWSROOM. ANDY JORDAN, CO-HOST', 'JANIS JAROSZ, INGATE INN', 'INS. SPENCER EIG, GONZALEZ FAMILY ATTORNEY', 'BURKHARDT (voice-over)', 'PAIGE AMIDON, "CONSUMER REPORTS"', 'RUDI BAKHTIAR, CO-HOST', 'BRUCE BURKHARDT, CNN CORRESPONDENT (voice-over)', 'MARINA KAMIMURA, CNN CORRESPONDENT (voice-over)', 'RACHEL MOSS, TEACHER', 'LOUISE DE MIRANDA, CNN STUDENT BUREAU (voice-over)', 'MIKIO AOKI, JAPANESE ACTING PRIME MINISTER (through translator)', 'ANDREW LAMONT, DE BEERS SPOKESMAN', 'ROBERT WALLIS, INS DISTRICT DIRECTOR', 'TAD HUTCHESON, AIRTRAN AIRWAYS', 'TOM HAYNES, CO-HOST', 'CHARLAYNE HUNTER-GAULT, CNN CORRESPONDENT (voice-over)', 'JACK NERAD, EDITOR, DRIVINGTODAY.COM', 'BURKHARDT (on camera)', 'KAMIMURA (on camera)', 'ALLAN DODDS FRANK, CNN CORRESPONDENT (voice-over)', 'DANIEL FINK, FORMER STUDENT'}
+Example 8 of not 2 speakers:
+	{'HERMENE HARTMAN, PUBLISHER, "N\'DIGO"', 'BERNARD SHAW, CNN ANCHOR', 'HENA CUEVAS, CNN CORRESPONDENT (voice-over)', 'IASMINE ABDENNABI, LATINOWORLDMARKET.COM', 'BARRY COOPER, CEO, BLACKVOICES.COM'}
+Example 1 of host not in the right place
+	['GOV. GEORGE W. BUSH (R-TX), PRESIDENTIAL CANDIDATE', 'LARRY KING, CNN ANCHOR']
+Example 1 of host not in the right place
+	['BILL HEMMER, CNN ANCHOR', 'JIM HILL, CNN ANCHOR']
+Example 9 of not 2 speakers:
+	{'BRIAN NELSON, CNN ANCHOR', 'MANTILL WILLIAMS, SPOKESMAN, AAA', 'AAA. WILLIAMS'}
+Example 1 of host not in the right place
+	['BILL HEMMER, CNN ANCHOR', 'DARYN KAGAN, CNN ANCHOR']
+Example 10 of not 2 speakers:
+	{'BOB FRANKEN, CNN CORRESPONDENT', "EILEEN O'CONNOR, CNN CORRESPONDENT", 'JOIE CHEN, CNN ANCHOR', 'JOHN KING, CNN SENIOR WHITE HOUSE CORRESPONDENT', 'QUESTION', 'KAREN HUGHES, BUSH CAMPAIGN COMMUNICATIONS DIRECTOR', 'AL GORE, VICE PRESIDENT OF THE UNITED STATES', 'NATALIE ALLEN, CNN ANCHOR', 'LAURENCE TRIBE, GORE CAMPAIGN ATTORNEY', 'ARI FLEISCHER, BUSH CAMPAIGN SPOKESMAN'}
+Example 1 of host not in the right place
+	['DARYN KAGAN, CNN ANCHOR', 'JEANNE MESERVE, CNN ANCHOR']
+Example 11 of not 2 speakers:
+	{'MORNING NEWS. CAMMI GRANATO, OLYMPIC GOLD MEDALIST', 'DARYN KAGAN, CNN ANCHOR', 'LEON HARRIS, CNN ANCHOR'}
+Example 1 of host not in the right place
+	['DEBORAH MARCHINI, CNN ANCHOR', 'SASHA SALAMA, CNN ANCHOR']
+Example 1 of host not in the right place
+	['LEON HARRIS, CNN ANCHOR', 'DARYN KAGAN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['BILL HEMMER, CNN ANCHOR', 'MARTIN SAVIDGE, CNN ANCHOR']
+Example 1 of host not in the right place
+	['JOHN KING, CNN ANCHOR', 'JAMES MARTONE, CNN ANCHOR']
+Example 1 of host not in the right place
+	['AARON BROWN, CNN ANCHOR', 'JOIE CHEN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['JUDY WOODRUFF, CNN ANCHOR', 'CATHERINE CALLAWAY, CNN ANCHOR']
+Example 1 of host not in the right place
+	['BILL HEMMER, CNN ANCHOR', "MILES O'BRIEN, CNN ANCHOR"]
+Example 12 of not 2 speakers:
+	{'BILL HEMMER, CNN ANCHOR', 'QUESTION', 'ARIEL SHARON, ISRAELI PRIME MINISTER', 'MYR. RUDY GIULIANI, NEW YORK CITY'}
+Example 1 of host not in the right place
+	['THIS IS A RUSH TRANSCRIPT.  THIS COPY MAY NOT BE IN ITS FINAL FORM AND MAY BE UPDATED. LEON HARRIS, CNN ANCHOR', 'BILL HEMMER, CNN ANCHOR']
+Example 13 of not 2 speakers:
+	{'JUDY WOODRUFF, CNN ANCHOR', 'JAIMIE SUCHLICKI, UNIVERSITY OF MIAMI', 'ANNOUNCER', 'MARK POTTER, CNN CORRESPONDENT (voice-over)'}
+Example 1 of host not in the right place
+	['LEON HARRIS, CNN ANCHOR', 'BEN WEDEMAN, CNN ANCHOR']
+Example 14 of not 2 speakers:
+	{'MARTIN SAVIDGE, CNN CORRESPONDENT (voice-over)', 'KONONENKO', 'CATHERINE CALLAWAY, CNN ANCHOR'}
+Example 1 of host not in the right place
+	['THIS IS A RUSH TRANSCRIPT.  THIS COPY MAY NOT BE IN ITS FINAL FORM AND MAY BE UPDATED. PAULA ZAHN, CNN ANCHOR', 'JACK CAFFERTY, CNN ANCHOR']
+Example 1 of host not in the right place
+	['THIS IS A RUSH TRANSCRIPT.  THIS COPY MAY NOT BE IN ITS FINAL FORM AND MAY BE UPDATED. ANDERSON COOPER, CNN ANCHOR', 'RIPTON MARINI, STUDENT TAKEN HOSTAGE']
+Example 1 of host not in the right place
+	['CAROL COSTELLO, CNN ANCHOR', "MILES O'BRIEN, CNN ANCHOR"]
+Example 1 of host not in the right place
+	['CAROL LIN, CNN ANCHOR', 'BILL HEMMER, CNN ANCHOR']
+Example 15 of not 2 speakers:
+	{"CHRISTIE WEBB, VAN HOUTEN'S ATTORNEY", 'FRANK BUCKLEY, CNN CORRESPONDENT (voice-over)', 'UNIDENTIFIED MALE', 'CAROL COSTELLO, CNN ANCHOR', 'STEPHEN KAY, FORMER MANSON PROSECUTOR', 'LESLIE VAN HOUTEN'}
+Example 1 of host not in the right place
+	['FREDRICKA WHITFIELD, CNN ANCHOR', "MILES O'BRIEN, CNN ANCHOR"]
+Example 1 of host not in the right place
+	['DARYN KAGAN, CNN ANCHOR', 'BILL HEMMER, CNN ANCHOR']
+Example 1 of host not in the right place
+	['AARON BROWN, CNN ANCHOR', 'WOLF BLITZER, CNN ANCHOR']
+Example 1 of host not in the right place
+	['KYRA PHILLIPS, CNN ANCHOR', 'JEFF FLOCK, CNN ANCHOR']
+Example 1 of host not in the right place
+	['ANDY SERWER, "FORTUNE" MAGAZINE', 'PAULA ZAHN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['WOLF BLITZER, CNN ANCHOR', 'OCTAVIA NASR, CNN ANCHOR']
+Example 1 of host not in the right place
+	['GEORGE W. BUSH, PRESIDENT OF THE UNITED STATES', 'KYRA PHILLIPS, CNN ANCHOR']
+Example 1 of host not in the right place
+	['PHILLIPS', 'MILES O\'BRIEN, CO-HOST, "AMERICAN MORNING"']
+Example 1 of host not in the right place
+	['TV. SANCHEZ', 'LISA BLOOM, COURT TV ANCHOR']
+Example 1 of host not in the right place
+	['BLITZER', 'LOU DOBBS, CNN ANCHOR']
+Example 16 of not 2 speakers:
+	{'SANCHEZ', 'MARK PRESTON, CNN POLITICAL EDITOR', 'PRESSTON'}
+Example 17 of not 2 speakers:
+	{'MCKENZIE (voice-over)', 'DAVID MCKENZIE, CNN CORRESPONDENT', 'MCKENZIE (on camera)', 'UNIDENTIFIED MALE', 'UNIDENTIFIED FEMALE', 'JOHNS'}
+Example 18 of not 2 speakers:
+	{'HEIDI COLLINS, CNN ANCHOR', 'SEN. JOHN MCCAIN (R), ARIZONA', 'ROB MARCIANO, AMS METEOROLOGIST', 'UNIDENTIFIED MALE', 'DAN SIMON, CNN CORRESPONDENT (voice-over)', 'UNIDENTIFIED FEMALE', 'DEP. CHIEF COMM. TONY NEGUS, AUSTRALIAN FEDERAL POLICE', 'JILL DOUGHERTY, CNN FOREIGN AFFAIRS CORRESPONDENT', 'CHRISTINE ROMANS, CNN CORRESPONDENT', 'SANDY CLOSE, EXECUTIVE DIRECTOR, NEW AMERICAN MEDIA', 'CHRIS FORAKER, FRIEND OF JOSH FATTAL'}
+Example 1 of host not in the right place
+	['VELSHI', 'CHRISTINE ROMANS, CNN ANCHOR']
+Example 1 of host not in the right place
+	['S. ROBINSON', 'JANE VELEZ-MITCHELL, HLN HOST, "ISSUES"']
+Example 1 of host not in the right place
+	['BALDWIN', 'WOLF BLITZER, HOST, "THE SITUATION ROOM"']
+Example 1 of host not in the right place
+	['HARRIS', 'WOLF BLITZER, CNN\'S "THE SITUATION ROOM" HOST']
+Example 1 of host not in the right place
+	['BALDWIN', 'WOLF BLITZER, HOST, "THE SITUATION ROOM"']
+Example 1 of host not in the right place
+	['KAYE', 'SUNNY HOSTIN, CNN LEGAL CONTRIBUTOR']
+Example 1 of host not in the right place
+	['COSTELLO', 'A.J. HAMMER, HOST, "SHOWBIZ TONIGHT"']
+Example 1 of host not in the right place
+	['LEMON', 'LARRY KING, HOST, "LARRY KING LIVE" (via telephone)']
+Example 1 of host not in the right place
+	['VELSHI', 'CHRISTINE ROMANS, HOST, "YOUR BOTTOM LINE"']
+Example 1 of host not in the right place
+	['BALDWIN', 'JOE JOHNS, CNN ANCHOR AND CORRESPONDENT']
+Example 19 of not 2 speakers:
+	{'HAMMER', 'JAMES HEWITT, PRINCESS DIANA`S FORMER LOVER', 'TEXT', 'MEGAN ALEXANDER, CORRESPONDENT, "INSIDE EDITION"', 'UNIDENTIFIED MALE', 'UNIDENTIFIED FEMALE', 'KHLOE KARDASHIAN', 'ANDERSON', 'LADY GAGA'}
+Example 1 of host not in the right place
+	['KAYE', 'HARVEY LEVIN, CREATOR, HOST AND EXECUTIVE, TMZ']
+Example 1 of host not in the right place
+	['BALDWIN', 'JOE JOHNS, CNN ANCHOR AND CORRESPONDENT']
+Example 20 of not 2 speakers:
+	{'ZAIN VERJEE, CNN INTERNATIONAL CORRESPONDENT', 'SARAH PALIN (R), FORMER ALASKA GOVERNOR', 'CAROL COSTELLO, CNN ANCHOR', 'ED HENRY, CNN SENIOR WHITE HOUSE CORRESPONDENT', 'SALWA HOSSEINI, SAYS SHE UNDERWENT "VIRGINITY CHECK" (Through Translator)', 'JIM ACOSTA, CNN CORRESPONDENT'}
+Example 1 of host not in the right place
+	['PHILLIPS', 'RICHARD QUEST, CNN INTERNATIONAL ANCHOR/CORRESPONDENT']
+Example 21 of not 2 speakers:
+	{'UNIDENTIFIED FEMALE', 'BALDWIN', 'RICK NEWMAN, CHIEF BUSINESS CORRESPONDENT, "U.S. NEWS & WORLD REPORT"'}
+Example 1 of host not in the right place
+	['PHILLIPS', 'ZAIN VERJEE, CNN INTERNATIONAL ANCHOR']
+Example 1 of host not in the right place
+	['BALDWIN', 'SUNNY HOSTIN, CNN LEGAL CONTRIBUTOR']
+Example 1 of host not in the right place
+	['SAVIDGE', 'A.J. HAMMER, HLN HOST, "SHOWBIZ TONIGHT"']
+Example 1 of host not in the right place
+	['MALVEAUX', 'WOLF BLITZER, CNN ANCHOR']
+Example 1 of host not in the right place
+	['WHITFIELD', 'WOLF BLITZER, ANCHOR, THE SITUATION ROOM']
+Example 22 of not 2 speakers:
+	{'BARACK OBAMA, PRESIDENT OF THE UNITED STATES', 'MALVEAUX', 'ARWA DAMON, CNN CORRESPONDENT', 'WOLF BLITZER, HOST, THE SITUATION ROOM', 'KYRA PHILLIPS, CNN CORRESPONDENT', 'ADM. TIMOTHY KEATING, U.S. NAVY, RETIRED'}
+Example 1 of host not in the right place
+	['LEMON', 'JENN HOBBY, CO-HOST, "THE BERT SHOW"']
+Example 1 of host not in the right place
+	['KAYE', 'FREDRICKA WHITFIELD, CNN ANCHOR']
+Example 1 of host not in the right place
+	['CHO', 'SUNNY HOSTIN, CNN LEGAL ANALYST']
+Example 23 of not 2 speakers:
+	{'GEORGE STONE, CONTRIBUTING EDITOR, NATIONAL GEOGRAPHIC TRAVELER', 'LIZZA', "O'BRIEN", 'SOCARIDES', 'BERMAN'}
+Example 1 of host not in the right place
+	['BLITZER', 'JACK CAFFERTY, CNN ANCHOR']
+Example 24 of not 2 speakers:
+	{'SGT. YVETTE JONES, 273 MILITARY POLICE CO.', 'SIMS', 'TOM FOREMAN, CNN ANCHOR (voice-over)', 'ROBERT MACNEVIN, GRANDSON OF PURPLE HEART RECIPIENT', 'SPC. ARTLEVIA ERVIN, 273 MILITARY POLICE CO.', 'UNIDENTIFIED MALE', 'ROMAN BACA, FOUNDER, EXIT 12 DANCE COMPANY', 'NICKI BUNTING, WIFE', 'UNIDENTIFIED FEMALE', 'COLONEL GREGORY D. GADSON, GARRISON COMMANDER, FORT BELVOIR, VA', 'BARBARA MACNEVIN, DAUGHTER OF PURPLE HEART RECIPIENT', 'CAPT. ZACHARIAN FIKE, U.S. ARMY', 'SGT. DARRELL COUSAR, 273 MILITARY POLICE CO.', 'BOB BUNTING, GRANDFATHER/VETERAN', 'VERNER'}
+Example 1 of host not in the right place
+	['BURNETT', 'FAREED ZAKARIA, HOST, CNN\'S "FAREED ZAKARIA GPS"']
+Example 1 of host not in the right place
+	['BALDWIN', 'SUNNY HOSTIN, CNN LEGAL ANALYST']
+Example 1 of host not in the right place
+	['COSTELLO', 'CHRISTINE ROMANS, CNN HOST']
+Example 25 of not 2 speakers:
+	{'BEYONCE, SINGER', 'COSTELLO', 'BLAKE SHELTON, SINGER', 'NISCHELLE TURNER, CNN ENTERTAINMENT CORRESPONDENT'}
+Example 1 of host not in the right place
+	['BALDWIN (voice-over)', 'JAKE TAPPER, ANCHOR, "THE LEAD"']
+Example 26 of not 2 speakers:
+	{'BROWN (voice-over)', 'KATE BOLDUAN, CNN ANCHOR', 'CHRIS CUOMO, CNN ANCHOR', 'UNIDENTIFIED FEMALE', 'JOHN MOODY, BUS DRIVER DURING ATTACK', 'KEN TRUMP, PRESIDENT, NATIONAL SCHOOL SAFETY AND SECURITY SERVICES', 'PAMELA BROWN, CNN CORRESPONDENT', 'MICHAELA PEREIRA, CNN ANCHOR'}
+Example 27 of not 2 speakers:
+	{'HAMMER', 'BETH BATES, WROTE VIRAL LETTER TO MANZIEL', 'JASON MORTENSEN, RECOVERING FROM SURGERY', 'C. MORTENSEN', 'CURRY', 'CANDICE MORTENSEN, WIFE OF JASON MORTENSEN', 'J. MORTENSEN'}
+Example 1 of host not in the right place
+	['ROMANS', 'FAREED ZAKARIA, CNN HOST, "FAREED ZAKARIA GPS"']
+Example 28 of not 2 speakers:
+	{'MAX FOSTER, HOST', 'RICHARD QUEST, CNN INTERNATIONAL CORRESPONDENT', 'BARBIE NADEAU, CNN CORRESPONDENT', 'ANNOUNCER', 'ATHENA JONES, CNN INTERNATIONAL CORRESPONDNET', 'PIERRE MOSCOVICI, FRENCH FINANCE MINISTER'}
+Example 29 of not 2 speakers:
+	{'ROWLANDS (on-camera)', "SHEVRON CASSIM, SHEZANNE CASSIM'S BROTHER", 'SCIUTTO (voice-over)', 'SEN. AMY KLOBUCHAR, (D) MINNESOTA', 'UNIDENTIFIED MALE', 'SCIUTTO (on-camera)', 'MARGARET CONLEY, CNN CORRESPONDENT', 'ROWLANDS (voice-over)', 'TED ROWLANDS, CNN CORRESPONDENT', 'DUNCAN MAC NAUGHTON, EXECUTIVE VICE PRESIDENT, WAL-MART U.S.'}
+Example 1 of host not in the right place
+	['LEMON', 'ROB SHUTER, HOST, VH1\'S "THE GOSSIP TABLE"']
+Example 1 of host not in the right place
+	['BALDWIN', 'SUNNY HOSTIN, CNN LEGAL ANALYST']
+Example 1 of host not in the right place
+	['JIM SCIUTTO, CNN CHIEF NATIONAL SECURITY CORRESPONDENT', 'CAROL COSTELLO, CNN ANCHOR']
+Example 1 of host not in the right place
+	['WHITFIELD', 'OPRAH WINFREY, TV HOST']
+Example 30 of not 2 speakers:
+	{'REP. JEFF MILLER, R-FLORIDA', 'BARACK OBAMA, PRESIDENT OF THE UNITED STATES', 'COL. PETER MANSOOR (RET.), U.S. ARMY', 'SEN. JOHN MCCAIN, R-ARIZONA', 'CHUCK HAGEL, U.S. DEFENSE SECRETARY', 'ROBERT MCFADDEN, FORMER MILITARY INVESTIGATOR', 'TERRY LYLES, PSYCHOLOGIST', 'MICHELLE KOSINSKI, CNN WHITE HOUSE CORRESPONDENT', 'RANDI KAYE, CNN ANCHOR'}
+Example 1 of host not in the right place
+	['ISIS.  BLITZER', 'ANDERSON COOPER, CNN ANCHOR, "ANDERSON COOPER 360"']
+Example 31 of not 2 speakers:
+	{'BARACK OBAMA, PRESIDENT OF THE UNITED STATES OF AMERICA', 'KATE BOLDUAN, CNN ANCHOR, "NEW DAY"', 'COSTELLO', 'PRESIDENT OBAMA'}
+Example 1 of host not in the right place
+	['DON LEMON, CNN ANCHOR', 'WOLF BLITZER, CNN HOST, "THE SITUATION ROOM"']
+Example 1 of host not in the right place
+	['NOAH SNEIDER, JOURNALIST', 'ANDERSON COOPER, CNN ANCHOR']
+Example 1 of host not in the right place
+	['NICK PATON WALSH, CNN SENIOR INTERNATIONAL CORRESPONDENT', 'JOHN BERMAN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['M.A.S.H." BALDWIN', 'JAKE TAPPER, CNN HOST, "THE LEAD"']
+Example 32 of not 2 speakers:
+	{'SCHACHER', 'UNIDENTIFIED MALE', 'PINSKY', 'SEDAGHATFAR', 'BROWN', 'ILA SOLOMON', 'POUMPOURAS'}
+Example 1 of host not in the right place
+	['TAPPER', 'BILL WEIR, CNN HOST, "THE WONDER LIST"']
+Example 1 of host not in the right place
+	['ED NORRIS, FORMER BALTIMORE POLICE COMMISSIONER', 'CAROL COSTELLO, CNN ANCHOR']
+Example 1 of host not in the right place
+	['COOPER', 'RACHEL NICHOLS, CNN SPORTS ANCHOR']
+Example 1 of host not in the right place
+	['ARWA DAMON, CNN SENIOR INTERNATIONAL CORRESPONDENT', 'BROOKE BALDWIN, CNN ANCHOR']
+Example 33 of not 2 speakers:
+	{'ZAKARIA'}
+Example 1 of host not in the right place
+	['LISA BLOOM, CNN LEGAL ANALYST & ATTORNEY FOR COSBY ACCUSER', 'BROOKE BALDWIN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['WHITFIELD', 'RACHEL NICHOLS, CNN SPORTS ANCHOR']
+Example 34 of not 2 speakers:
+	{'UNIDENTIFIED MALE AUDIENCE MEMBER', 'CATHERWOOD:  I -- PINSKY', 'BARNETT', 'DR. THOMAS FRIEDEN, DIRECTOR OF THE CENTERS FOR DISEASE CONTROL', 'GOETZ'}
+Example 1 of host not in the right place
+	['COOPER', 'MORGAN SPURLOCK, CNN HOST "INSIDE MAN"']
+Example 1 of host not in the right place
+	['SAVANNA HARTMAN, LEAD PASTOR, BANNER CHURCH', 'JOHN BERMAN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['CHRIS CUOMO, CNN ANCHOR', 'BRIANNA KEILAR, CNN ANCHOR']
+Example 35 of not 2 speakers:
+	{'DANA BASH, CNN CHIEF CONGRESSIONAL CORRESPONDENT', 'PHILS', 'JOHN PHILIPS, CNN POLITICAL COMMENTATOR', 'PAULA HANCOCKS, CNN CORRESPONDENT', 'GOV. MIKE PENCE (R-IN), VICE PRESIDENTIAL NOMINEE', 'JOHN VAUSE, CNN ANCHOR', 'RICHARD ROTH, CNN SENIOR U.N. CORRESPONDENT (via telephone)', 'HILLARY CLINTON (D), PRESIDENTIAL NOMINEE', 'DONALD TRUMP (R), PRESIDENTIAL NOMINEE', 'WENDY GREUEL, CLINTON SUPPORTER', 'JOHN KING, CNN CHIEF NATIONAL CORRESPONDENT'}
+Example 36 of not 2 speakers:
+	{'BARACK OBAMA, PRESIDENT OF THE UNITED STATES', 'BRIANNA KEILAR, CNN SENIOR POLITICAL CORRESPONDENT', 'GEORGE HOWELL, CNN ANCHOR', 'HILLARY CLINTON (D), PRESIDENTIAL NOMINEE', 'DONALD TRUMP (R), PRESIDENTIAL NOMINEE', 'CHRISTINE ROMANS, CNN ANCHOR'}
+Example 37 of not 2 speakers:
+	{'TJ BRAY, JOB AT CARRIER SAVED BY TRUMP DEAL', 'MAYOR RAHM EMANUEL (D), CHICAGO', 'DONALD TRUMP, U.S. PRESIDENT-ELECT (via telephone)', 'BOLDUAN'}
+Example 38 of not 2 speakers:
+	{'WHITFIELD', 'UNIDENTIFIED FEMALE', 'UINDENTIFIED MALE', 'MOLLY HENNESSY-FISKE, REPORTER, LOS ANGELES TIMES (voice-over)', 'ARWA DAMON, CNN SENIOR INTERNATIONAL CORRESPONDENT', 'LT. GEN. MARK HERTLING (RET.), CNN MILITARY ANALYST'}
+Example 1 of host not in the right place
+	['WILLIAM PERRY, FORMER DEFENSE SECRETARY FOR BILL CLINTON', 'KATE BOLDUAN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['CABRERA', 'FAREED ZAKARIA, CNN ANCHOR']
+Example 39 of not 2 speakers:
+	{'SEN. JOHN MCCAIN (R), ARIZONA', 'MANU RAJU, CNN SENIOR POLITICAL CORRESPONDENT', 'JONES (voice-over)', 'SARI HORWITZ, REPORTER, WASHINGTON POST', 'ATHENA JONES, CNN CORRESPONDENT', 'SEN. ORRIN HATCH (R), UTAH', 'LU STOUT'}
+Example 1 of host not in the right place
+	['ALISYN CAMEROTA, CNN ANCHOR', 'CHRIS CUOMO, CNN ANCHOR']
+Example 1 of host not in the right place
+	['ALEXANDRA FIELD, CNN CORRESPONDENT', 'CHRISTINE ROMANS, CNN ANCHOR']
+Example 1 of host not in the right place
+	['JOHN MERRILL, ALABAMA SECRETARY OF STATE', 'WOLF BLITZER, CNN HOST']
+Example 40 of not 2 speakers:
+	{'JEFFREY TOOBIN, CNN CHIEF LEGAL ANALYST', 'PHIL MUDD, CNN COUNTERTERRORISM ANALYST', 'DONALD TRUMP (R), PRESIDENT OF THE UNITED STATES', 'UNIDENTIFIED MALE', 'ALISYN CAMEROTA, CNN ANCHOR', 'UNIDENTIFIED FEMALE', 'JEFF ZELENY, CNN SENIOR WHITE HOUSE CORRESPONDENT', 'ANNOUNCER', 'FBI. TRUMP', 'ZELENY (voice-over)', 'FBI. CHRIS CUOMO, CNN ANCHOR'}
+Example 1 of host not in the right place
+	['REP. MIKE QUIGLEY, (D), ILLINOIS', 'BRIANNA KEILAR, CNN ANCHOR']
+Example 41 of not 2 speakers:
+	{'JOHN DEFTERIOS, CNN MONEY EMERGING MARKETS EDITOR', 'MATT RIVERS, CNN INTERNATIONAL CORRESPONDENT', 'RANA FAROOHAR, CNN GLOBAL ECONOMIC ANALYST', 'CHRIS PAUL, CNN ANCHOR', 'JEAN-CLAUDE JUNCKER, PRESIDENT OF THE EUROPEAN COMMISSION (through translator)', 'REP. ALEC GARNETT (D), COLORADO STATE LEGISLATOR', 'MARTIN SAVIDGE, CNN ANCHOR', 'WILBUR ROSS, COMMERCE SECRETARY'}
+Example 1 of host not in the right place
+	['COOPER', 'CHRISTIANE AMANPOUR, CNN HOST']
+Example 1 of host not in the right place
+	['SEN. MAZIE HIRONO (D), HAWAII', 'JAKE TAPPER, CNN ANCHOR']
+Example 1 of host not in the right place
+	['ELISE LABOTT, CNN GLOBAL AFFAIRS CORRESPONDENT', 'KATE BOLDUAN, CNN HOST']
+Example 1 of host not in the right place
+	['JOHN MOORE, PHOTOGRAPHER, GETTY IMAGES', 'BROOKE BALDWIN, CNN ANCHOR']
+Example 42 of not 2 speakers:
+	{'JACKIE KUCINICH, CNN POLITICAL ANALYST', 'TIMOTHY ALTOMARE, ANNE ARUNDEL POLICE CHIEF', "ZEID BIN RA'AD ZEID AL-HUSSEIN, UNITED NATIONS HIGH COMMISSIONER FOR HUMAN RIGHTS", 'TOM FOREMAN, CNN CORRESPONDENT', 'ANTHONY MESSENGER, SURVIVOR', 'JAKE TAPPER, CNN HOST', 'UNIDENTIFIED MALE', 'CARL HIAASEN, BROTHER OF VICTIM', 'KIRSTEN POWERS, CNN COMMENTATOR', 'MICHELLE KOSINSKI, CNN SENIOR DIPLOMATIC CORRESPONDENT (voice-over)', 'TOM MARQUARDT, FORMER EDITOR AND PUBLISHER, "THE CAPITAL GAZETTE"', 'ANNOUNCER', 'DONALD TRUMP, PRESIDENT OF THE UNITED STATES', 'DAVID URBAN, CNN POLITICAL COMMENTATOR'}
+Example 1 of host not in the right place
+	['BALDWIN', 'DON LEMON, CNN HOST']
+Example 43 of not 2 speakers:
+	{'JENNIFER GRAY, CNN METEOROLOGIST', 'BRIAN TODD, CNN CORRESPONDENT', 'ARNIE HEGLER, FORMER REACTOR OPERATOR, BRUNSWICK NUCLEAR POWER PLANT', 'KING'}
+Example 1 of host not in the right place
+	['DANA BASH, CNN CHIEF POLITICAL CORRESPONDENT', 'WOLF BLITZER, CNN HOST']
+Example 1 of host not in the right place
+	['BOLDUAN', 'BRIAN STELTER, CNN CHIEF MEDIA CORRESPONDENT & CNN HOST, "RELIABLE SOURCES"']
+Example 1 of host not in the right place
+	['MICHAEL HUERTA, FORMER FAA ADMINISTRATOR', 'BRIANNA KEILAR, CNN HOST']
+Example 44 of not 2 speakers:
+	{'KEILAR', 'SHAN WU, CNN LEGAL ANALYST', 'JULIE HIRSCHFELD DAVIS, CNN POLITICAL ANALYST'}
+Example 1 of host not in the right place
+	['BALDWIN', 'JIM SCIUTTO, CNN ANCHOR & CNN CHIEF NATIONAL SECURITY CORRESPONDENT']
+Example 1 of host not in the right place
+	['BOLDUAN', 'MICHAEL HOLMES, CNN ANCHOR & CORRESPONDENT']
+Example 1 of host not in the right place
+	['BALDWIN', 'DON RIDDELL, CNN SPORTS ANCHOR']
+Example 45 of not 2 speakers:
+	{'SHEPHARD SMITH, FOX NEWS HOST', 'GOV.  RICARDO ROSSELLO, PUERTO RICO', 'HILL'}
+Example 1 of host not in the right place
+	['NICK VALENCIA, CNN CORRESPONDENT', 'PAMELA BROWN, CNN HOST']
+Example 1 of host not in the right place
+	['DAVID AXELROD, CNN CONTRIBUTOR & CNN HOST, "THE AXE FILES"', 'BROOKE BALDWIN, CNN HOST']
+Example 1 of host not in the right place
+	['WHITFIELD', 'ERICA HILL, CNN ANCHOR & NATIONAL CORRESPONDENT']
+Example 1 of host not in the right place
+	['ALLEN', 'ALEX THOMAS, CNN WORLD SPORT ANCHOR']
+Example 1 of host not in the right place
+	['LEMON', 'SAM DONALDSON, FORMER ANCHOR & REPORTER, NBC NEWS']
+Example 1 of host not in the right place
+	['BOLDUAN', 'RICHARD QUEST, CNN BUSINESS EDITOR-AT-LARGE & CNN HOST, "QUEST MEANS BUSINESS"']
+Example 46 of not 2 speakers:
+	{'AXELROD', 'BARRON-LOPEZ', 'BORGER', 'COOPER', 'CUOMO', 'VAN JONES, CNN HOST, "THE VAN JONES SHOW"', 'SANDERS', 'KRISTEN POWERS, USA TODAY COLUMNIST', 'TERRY MCAULIFFE, ENDORSED BIDEN', 'CHALIAN'}
+Example 1 of host not in the right place
+	['CABRERA', 'JULIA CHATTERLEY, CNN BUSINESS ANCHOR']
+Example 1 of host not in the right place
+	['MARY ELLEN KLAS, MIAMI HERALD TALLAHASSEE BUREAU CHIEF (vis Cisco Webex)', 'BROOKE BALDWIN, CNN HOST']
+Example 1 of host not in the right place
+	['JAY CARNEY, SENIOR VICE PRESIDENT, GLOBAL CORPORATE AFFAIRS, AMAZON', 'BRIANNA KEILAR, CNN HOST']
+Example 1 of host not in the right place
+	['DR. THOMAS TSAI, HEALTH POLICY RESEARCHER, HARVARD SCHOOL OF PUBLIC HEALTH', 'JOHN BERMAN, CNN ANCHOR']
+Example 1 of host not in the right place
+	['MAYOR BO DOROUGH, ALBANY, GEORGIA', 'JOHN BERMAN, CNN ANCHOR']
+Example 47 of not 2 speakers:
+	{'ROSEMARY CHURCH, CNN ANCHOR', 'BRIAN BURTON, PRESIDENT AND CEO, THREE SQUARE FODD BANK', 'KYUNG LAH, CNN SENIOR NATIONAL CORRESPONDENT', 'MARCELA MERIWEATHER, MGM EMPLOYEE', 'JOHN DEFTERIOS, CNN EMERGING MARKETS EDITOR', 'SARA NELSON, INTERNATIONAL PRESIDENT, ASSOCIATION OF FLIGHT ATTENDANTS', 'UNIDENTIFIED MALE', 'UNIDENTIFIED FEMALE', 'MOHAMMED ALABBAR, FOUNDER AND CHAIRMAN, EMAAR PROPERTIES', 'MARILYN KIRKPATRICK, CHAIRWOMAN CLARK COUNTY NEVADA COMMISION', 'PETE MUNTEAN, CNN AVIATION CORRESPONDENT'}
+Example 48 of not 2 speakers:
+	{'HOLMES', 'GRIFFIN (voice-over)', "DREW GRIFFIN, CNN'S SENIOR INVESTIGATIVE CORRESPONDENT (voice-over)", 'UNIDENTIFIED MALE', 'PHILLIP ATIBA GOFF, COFOUNDER OF THE CENTER FOR POLICING EQUITY', 'MICHELLE GROSS, COMMUNITIES UNITED AGAINST POLICE BRUTALITY', 'GEORGE FLOYD', 'R.T. RYBAK, FORMER MINNEAPOLIS MAYOR'}
+Example 49 of not 2 speakers:
+	{'JOHN VAUSE, CNN ANCHOR (voice-over)', 'GOV. GAVIN NEWSOM (D-CA)', 'MAYOR FRANCIS SUAREZ (R-FL), MIAMI', 'MERCEDES SCHNEIDER, PUBLIC SCHOOL TEACHER', 'REP. KIM SCHRIER (D-WA), PEDIATRICIAN', 'MAYOR KEISHA LANCE BOTTOMS (D-GA), ATLANTA', 'DR. JEROME ADAMS, SURGEON GENERAL OF THE UNITED STATES', 'BILL WEIR, CNN CORRESPONDENT', 'NICK WATT, CNN CORRESPONDENT (voice-over)', 'DR. ANTHONY FAUCI, DIRECTOR, NATIONAL INSTITUTE FOR ALLERGY AND INFECTIOUS DISEASES', 'DONALD TRUMP, PRESIDENT OF THE UNITED STATES', 'DR. MICHAEL RYAN, WORLD HEALTH ORGANIZATION', 'WILSON VILETA, BRAZILIAN DOCTOR'}
+Example 1 of host not in the right place
+	['BLITZER', 'FREDRICKA WHITFIELD, CNN ANCHOR']
+Example 1 of host not in the right place
+	['GOV. JOHN BEL EDWARDS (D-LA)', 'JOHN BERMAN, CNN ANCHOR']
+64301 remain as 2-person dialogs out of which 14000 are NPR interviews and 50301 are CNN interviews
+removed interviews because of guest/host confusion is at [538, 1917], rest removed because of 2 person condition
+There are 64301 unique 2-person interviews
+    	 out of which 50301 cnn and 14000 npr interviews
+NPR-1845-4
+['Yeah.']
+['And he threatened closing the ports of entries. What does that mean for those who live on this line?']
+----
+NPR-2850-31
+["...And the Red Sox. But this team is arguably one of the best regular season teams we have ever seen, OK? So they went - and it was - without a doubt, they were the best team in baseball. So when you are the best team in baseball, it's like, OK, well, then win it all. No one cares about, hey, you won 108 games - yay. You get an..."]
+['Yeah.']
+----
+NPR-3706-8
+["Well, aside from you, it's - what's really cool is I just returned from Ghana, West Africa."]
+['OK.']
+----
+NPR-4742-11
+["That's true."]
+["...There is a referendum, and we're able to tell them how we feel. I guess I'm asking..."]
+----
+NPR-5904-36
+['Thank you.']
+["And thank you for taking time to be with us. Jim Gordon, he is CEO of Cape Wind Associates, talking about upcoming 100 and - well, it's going to be 140, is it?"]
+----
+NPR-6830-7
+["I really like to use two different kinds of breads. I like the flavor contrast you get. But I think - I love hearing what other people use because it's very regional. But for me, I find a mix of good sourdough and a challah is really fun. But, of course..."]
+['Challah, really?']
+----
+NPR-11224-8
+["Well, there's no doubt about that. So the near-Earth asteroids number about 500,000, but we only know of 9,000. And the reason that they're so interesting, Ira, is because they are actually energetically easier to reach than the surface of the moon. So we've been to the moon many times, and the moon is a great place, which is very worthy of our exploration. But just to give you an idea of how close some of the asteroids are, they're easier to reach than our own moon."]
+['Yeah.']
+----
+NPR-11228-17
+['Yeah, absolutely.']
+['Robo-fish and friends.', "It's a great little video up there on our website at sciencefriday.com. It's our video pick of the week and..."]
+----
+NPR-11536-29
+['Yeah, seriously. Might as well use the whole frog.']
+['Oh.']
+----
+NPR-11760-7
+['Yes, indeed.']
+['So now we have the pirate website Sci-Hub, which provides free access to journals. What has been the reaction to this in the academy?']
+----
+NPR-14044-20
+["Well, he's..."]
+['...Generous.']
+----
+NPR-16347-14
+['And they closed some of the metro...']
+['Joe...']
+----
+NPR-18905-22
+["I do not, because I'm not actually directly raising money."]
+['Uh-huh.']
+----
+NPR-19012-10
+["I don't think it's similar to Florida. Obviously when you talk about a recount and things like that, it does look or sound the same. But in Mexico there is a very specific way of dealing with these issues. The electoral tribunal was set for that, and the electoral - and there are specific cases where you can open these polling station votes..."]
+['Mm-hmm.']
+----
+NPR-34140-29
+['Correct.']
+["Do you go up to Will Smith and say: Look, here are 75 films. These 40, nobody has optioned them. Do you go to him and say: We've got to consider these?"]
+----
+NPR-36202-17
+["It's going to be a long time before applications can actually control things that matter in the car, that are going to be safety-related issues."]
+['Mm-hmm.']
+----
+NPR-46606-8
+['Right. And I think the neatest one, he has these two techniques and one is spraying jellyfish with fluorescent dye.']
+['Ooh.']
+----
+NPR-47031-12
+['Thanks, Ed.']
+['My best to you and your family, buddy.']
+----
+NPR-48281-5
+["Look; consumers using Facebook deserve to know where their data's going and what it's being used for. And the reason that I would stop at just saying we're looking into it now and not yet say that we've launched an investigation is because at this juncture what we're really reviewing is the terms of service agreement between Facebook and its users, me and..."]
+['OK.']
+----
+NPR-48342-15
+['For blending.']
+['Yeah, for blending ethanol, which I think difficult to understand but I think the argument that Mr. Norquist and others are making is this represents a tax increase.']
+----
+CNN-10475-7
+['And -- but furthermore, you see, there is a big mystery to life on Earth. And that is this: that is despite hundreds of years of investigations, by tens of thousands of scientists, no one has ever found any example of life on Earth simpler -- free-living life on Earth, simpler than bacteria.']
+['Right.']
+----
+CNN-13462-5
+['Pardon?']
+['How well can you see them? how far away, et cetera?']
+----
+CNN-18470-19
+['Oh, man.']
+['Because last I checked you were not showing up in our latest CNN/Gallup poll. Shocking as that might be to you...']
+----
+CNN-20139-7
+['Well, yes, you know, a week ago nobody really knew what a chad was, and now suddenly everybody does. I mean, they\'re selling T-shirts on the street that say "Got Chad?" you know. I thought Jesse Jackson missed an opportunity. You know, he was here earlier in the week, and he had a chance, I thought, to make up a few chad rhymes, you know? And he didn\'t do it. I thought, you know, if the chad\'s not fully mounted, it\'s a Gore vote fully counted, something like that. But he left town. And so then the Republicans came in, and they sort of took over the chad public relations board. They were chanting on the street, no more chad, no more chad. And they\'re collecting -- this is what I find really funny -- they\'re going around in the counting center and they\'re looking for little pieces of chad on the floor and they\'re collecting chad and using these...']
+["You're kidding."]
+----
+CNN-20529-3
+['Right.']
+['Why?']
+----
+CNN-25369-27
+["So I'm going to ask you, Daryn, if you can suggest -- answer this question."]
+['Real quickly.']
+----
+CNN-26259-11
+['From here.']
+['Yes.']
+----
+CNN-26534-7
+['Yes...']
+['Lined up? Piled up? What?']
+----
+CNN-37309-5
+['Yes.']
+["Sorry that you didn't have me there, but we've got breaking news. And that is Tim Cole, who you see perhaps on the phone there in the red shirt. He was talking to people on the ground in Brazil who have sighted Fossett. They say he has come down in a reasonably populated area. He appears to be safe. People who have seen him on the ground say he appears to be safe. A lot of people apparently are surrounding the balloon capsule, which is now on the ground. Again, they believe it's about 25 miles southwest of that airport in Bage. And I'm trying to listen to Tim if I can. He's just getting off the line. So I couldn't hear the last part of that phone conversation. But he was on the line, had a very difficult phone connect with someone on the ground in Brazil who had seen Fossett -- so now pretty good confirmation -- they feel pretty good confirmation that he is on the ground and is safe. Again, we expect a press conference here shortly to get the full details of that, and obviously talking now about the next step and what they do next. That's a big -- that's a big job, too. But at this point, good news: Steve Fossett appears to be safe and on the ground -- Leon.", "Can you -- Jeff, from your position -- it's kind of hard to tell for us how far away they are behind you. Can you hear their conversation right now?"]
+----
+CNN-44971-3
+['Right.']
+['React to that and then explain to us what this new intelligence information suggests.']
+----
+CNN-47219-15
+['Right.']
+['... the warnings while at the same time no specific threats. Why alarm the American public if there are no specific threats?']
+----
+CNN-47318-31
+['These are the tiebacks that were done during construction to hold the wall up in the interim, so that until they got the floors in the basement installed.']
+['OK.']
+----
+CNN-54936-19
+['... where he allegedly admitted the crime. And I think the best thing that the defense did in its case over the past week has been to call witnesses who said that Skakel was coerced, was sort of forced into physically...']
+['Coerced, badgered.']
+----
+CNN-62358-44
+['Thank you.']
+['Always good to talk to you.']
+----
+CNN-62739-3
+['Yes.']
+['Today. Why?']
+----
+CNN-64980-9
+["But people sometimes get a real high out of buying a new shirt or a new dress. That's very different than the people who are buying these useless objects, and who also are putting their family at risk. When you hear about a mom who is doing so much shopping that they're having trouble buying food or clothing for their children..."]
+["Well, that's..."]
+----
+CNN-65199-5
+['Well, it is a flat plate...']
+['The flap.']
+----
+CNN-66038-5
+['Well...']
+["Just characterize for us the importance of it, and how that is supposed to bolster the president's case for military action against Iraq."]
+----
+CNN-71686-5
+["You know, it doesn't. I have to say I don't know the relative strength of the evidence in the cases. You know, these cases are very old by now. Evidence never gets better with time. Witnesses' memories fade, they die, they disappear. Evidence can get lost over time. It certainly is standard law enforcement technique to go with the simpler case first. You always want to get a win first."]
+['Yes.']
+----
+CNN-77036-12
+["Well, Paula, it's -- the $140 million package was a bunch of very complicated benefit and retirement programs that, when all bundled together, including some that were earning interests automatically at 8 percent, and other premium bonuses piling on top of each other that most directors never had a chance to see on a single page at a single time. When you put all those numbers together and you put out a figure of $139.5 million, with another 48 that he declined, that number is just overwhelming."]
+['Sure.']
+----
+CNN-88692-13
+['Absolutely.']
+["Well, thank you so much for sharing Alex's memory and letting us know exactly how the memory goes on, as well."]
+----
+CNN-89812-7
+["Well, it potentially could be quite damaging, as has been reported by CNN. For this film to be shown to other throughout the country, it could be very damaging in terms of trying to persuade people to surrender, that the coalition forces are not interested in taking individuals captive and holding them as prisoners of war but rather to killing them. So it's a very serious implication, if that turns out to be the case that the individual was killed in cold blood. I can only speak from my personal experience when I was at the Department of Defense. U.S. forces took every precaution to try to minimize killing innocent people, not to mention engaging in any acts of the -- classified as war crimes. In this particular case, if that individual did not pose a threat to the coalition forces moving in, then there's certainly going to require some sort of disciplinary action, and -- and the court-martial possibility."]
+['OK. Condi...']
+----
+CNN-101039-31
+["But you're right, if I died right now, I would be very happy."]
+['Why?']
+----
+CNN-102935-8
+['Right.']
+["If she's working undercover? OK, has an agent, position, a covert position, ever been declassified before? I mean, would that make sense?"]
+----
+CNN-114925-23
+['Yes.']
+['You believe it when you see it?']
+----
+CNN-121381-20
+['Very powerful.']
+["And they don't like the fact -- or maybe they do -- that there are a lot of illegal immigrants."]
+----
+CNN-142554-33
+["Here's how it struck me. And as I said earlier in my press release, I was dumbfounded as I looked on the Department of Education Web sites to look at these documents and lesson plans that went to schools. And the issue is this. It seemed, rather critical analysis, it almost appeared as if they were looking at -- for example, they are quoted things in these documents that say, how does the president inspire you? What is it that the president is asking you to do? Imagine if this were the former president, Bush, who went on..."]
+['I agree.']
+----
+CNN-150774-7
+['Yes.']
+['Listen, we both went to the Masters. I went to the practice rounds. He finished fourth there. It was great watching him. It was his comeback. He finished fourth. But did he complain about any neck injuries then? He came in last at Quail Hollow, I think, last week. So were there signs of injuries flaring up then? Or before this? Or did it just happen after this accident?']
+----
+CNN-154931-14
+['We might be. We might be.']
+['Yes.']
+----
+CNN-159030-63
+["And these women who they're buying the milk from, they're nursing their own babies."]
+['Right.']
+----
+CNN-160859-27
+['Right.']
+['To that dream job.']
+----
+CNN-168911-14
+['They all do, absolutely.']
+['No offense.']
+----
+CNN-169640-5
+['53.']
+['53 funerals and those people --']
+----
+CNN-172770-35
+['That shows -- that`s just problem for Obama, right?']
+['Yeah. Yeah.']
+----
+CNN-173098-11
+['I can see that.']
+['Really?']
+----
+CNN-187954-13
+["See, I know what that meant to you. I knew what you were getting at, that speech. Because your life's been a roller coaster. You had this huge hit in Britain. It made you for a while the biggest comedy star on British television, huge audiences, eight, nine, 10 million people. Then you sort of peaked. It looked like the bubble was burst. I remember talking to you in that period. And you were pretty down and low about that time."]
+['Yeah.']
+----
+CNN-188478-5
+["Right, it's where pre-leukemia can become leukemia. It doesn't always but in her case, it did. So for six years she knew she had a condition that might become cancer."]
+['So sad.']
+----
+CNN-191986-5
+['Yes.']
+["All right, Desiree, we should feel really good about our workout. I do. I'm feeling energized now, but you know what? I often feel like I want to eat something right away or I want to drink something right away and you say reaching for water or vitamin water or Gatorade isn't always the only option in which to reach for after a workout."]
+----
+CNN-192398-3
+["Even Peyton Manning cannot go from four NFL MVP awards to four major neck surgeries then be effective. I talked to a doctor about this the other day. He was saying the absolutely worst situation for him is to be somewhere with high altitude and damp conditions. Guess where he's playing at?"]
+['Where?']
+----
+CNN-192735-64
+['490.']
+['490 versus 190.']
+----
+CNN-194023-4
+["Well, we've had a couple of differences and I support Governor Romney and think he will make a great president, but on foreign policy, I think there's too much agreement between Republicans and Democrats. But I think the people are tired of war. When you talk to Republicans or Democrats now, I think it's almost universal. People want to come home from Afghanistan. You know, there's such great sorrow when you think about our soldiers being killed by the same Afghan policemen and soldiers that we're trying to help. And so I've seen a great movement in recent weeks towards really wanting to come home."]
+['Yes.']
+----
+CNN-198981-14
+["That helps. That helps. It doesn't solve the whole problem."]
+["What's the..."]
+----
+CNN-208405-7
+['Oh, yes.']
+['The goal I imagine is to get rid of those people in your life, which is probably easier said than done.']
+----
+CNN-242366-3
+['Of course.']
+['And I remember being here in February, when I arrived here to start broadcasting from here in March. It was hot.']
+----
+CNN-252859-28
+["It's (inaudible)."]
+["It's wonderful and it's very moving so best of luck."]
+----
+CNN-258654-7
+["Wage growth about 2 percent. I'd like to see more. The Fed would like to see more. But other kinds of signals that we've been seeing show that if the labor market stays strong like this, you're going to see wages start to rise. You're still hearing people talk about there are too many people who have fallen out of the labor market, that's still a concern. But when I look over the past seven years, I see something pretty exciting. I see the long-term unemployed about a million fewer -- long-term unemployed over the past year. That's important. When you look at something called the U-6, you know, the real unemployment rate or the underemployment rate."]
+['Right.']
+----
+CNN-277150-8
+['Absolutely.']
+["It's now becoming, kind of, global cinema."]
+----
+CNN-289065-21
+['Right.']
+["One other subject. So, Governor Pence now is the running mate. We all remember last year with the issue of the so-called religious freedom bill on simplifying he came down on the side of the cook, the baker and the candlestick maker who wished to say, I'm not serving you based on religious freedom. I guess you're unsettled about that pick."]
+----
+CNN-303631-15
+['Yes.']
+["The architects of Obamacare say, guess what, one part is reliant on the next is reliant on the next. You can't just keep what you like and throw out the rest. So we will see."]
+----
+CNN-312223-7
+["I think they're very fair and, in fact, I would argue that Donald Trump likes and admires Richard Nixon. I say that because I talked to him about it."]
+['Really?']
+----
+CNN-320457-33
+['Right. Right.']
+['But you make the argument that for a number of dreamers --']
+----
+CNN-327074-13
+['Yes.']
+["Something horrifying that you experienced as a family, you and Mark and his wife Gabby, I covered the assassination attempt against Gabby Gifford's in Arizona when you were in space and you had to hear about it when you were up there and since you've been down you have also been around to see another mass shooting in the United States, actually when you were on, many mass shootings over the last year. What's the right way for American's to have their guns and have the country be safe?"]
+----
+CNN-329555-12
+["Well, here's what I would say. I would recommend people, if they have the interest, to go to that Facebook Live. You can just Google my name and punch it up. And you can see the entire interview."]
+['Yes.']
+----
+CNN-330385-7
+['Absolutely. Absolutely.']
+["House Speaker Paul Ryan called his comments unfortunate and unhelpful. Republican Senators Tom Cotton and David Perdue, who were in that meeting in the Oval Office, say they don't recall the president specifically making those offensive comments. What does that tell you?"]
+----
+CNN-335816-7
+["Well Christopher, we agree that more money has to get to the local communities. We are -- this is a federal, state, and local and community effort. This is the White House. He is the president. He is an engaging, captivating, edifying speaker at that podium, including in New Hampshire on Monday. So I think that with the president and the first lady bringing attention to this issue it's going to go a long way toward just the basics of educating people and honestly, putting the fear into some of our youth for not buying that street drug for $10. For not getting hooked in the first place and yet, recognizing so many people in this country are already suffering from the disorder with these drugs and helping them. Now, I want to say something about the money. That is Congress' job to appropriate the money. This president declared a public health emergency. Congress has met the president's request which was a historic request for new funding for opioids. No president, no administration had anything close to this -- ever had anything close to this. And we know it does take money and it also takes lifting or changing these crazy rules that really prevent people from accessing and remaining in treatment. We also, in our opioids cabinet -- we've involved the departments and agencies and the cabinet secretaries that you would expect. -- DHS, DOJ, V.A., HHS. But we also have involved USDA, so they've put out guidance --"]
+['Good.']
+----
+CNN-338275-5
+["No, I think his interest in this has a lot to do with Michael Cohen and possibly other people that he might be considering pardoning in the future. I truly believe that his focus on pardons has something to do with that. The reason, by the way, that this case hasn't resulted in a pardon, and by the way, even Obama did not pardon him when he was -- you know, Senator McCain and others begged him to issue the pardon and he didn't. But Obama and other presidents have said no to historic pardons because it takes up the resources of the Justice Department."]
+['Right.']
+----
+CNN-339794-37
+['Yes.']
+["What you mean when you say the President's s stinks."]
+----
+CNN-345954-8
+['You bet.']
+["Now, the secret tape of President Trump made by his former attorney Michael Cohen, I'm sure you're aware of it by now. Is there anything in it that is news to you?"]
+----
+CNN-346716-50
+['Yeah, absolutely.']
+['Right?']
+----
+CNN-348768-23
+["You think that would have been enough and prevent him from rising as he did, but it wasn't on the same level as abuse of minors."]
+['No, understood.']
+----
+CNN-348853-35
+['He did.']
+['Was that smart on his point to go that dark?']
+----
+CNN-349594-19
+['So if I walk in, I was a cabinet secretary and I had this op-ed, for example, they had to make sure I was really the secretary. So that process happened.']
+['OK.']
+----
+CNN-350418-80
+['Yes.']
+['He comes in. He is then asked to write a letter about Comey and assess --']
+----
+CNN-366964-9
+['Yes.']
+["Then there's also Lori Loughlin. And taking a different path than we have seen at least with a lot of other parents who paid money for this scheme. What do you know about why she hasn't tendered a plea deal yet?"]
+----
+CNN-367525-15
+['-- not discretion, but jurisdiction.']
+['Right.']
+----
+CNN-376169-10
+['He said they were fine people.']
+['Governor --']
+----
+CNN-378822-31
+['Yes.']
+['Do you see signs of that? And is it imminent, in your view?']
+----
+CNN-383782-13
+["So, I don't know the answer to that. I was struck by the fact, you have 47 percent of people roughly half of respondents in the country. And as you said, this is Democrats and Republicans independents saying, Democrats party is left and only 37 percent saying the Republican Party is too right."]
+['Right.']
+----
+CNN-384015-7
+["And this is a primary that leads into Super Tuesday, right? I'd like to call it super on steroids Tuesday, because many of those states look just like South Carolina, with large African-American populations."]
+['Right.']
+----
+CNN-391587-46
+['-- that was intentionally designed to mislead your viewers.']
+['Professor.']
+----
+CNN-398989-5
+["Well, you know, we're working with our city partners. City partners also have plans to increase their contact tracing. We're looking at our regional partners, our state partners. I think the answer is that no one really knows if it's enough, but we would really like to ramp up and make sure we have enough now. And then if we don't use them or don't need them, we can turn them off. Absolutely, that's the case. But I'll tell you, Jim, the biggest issue right now is that we're getting information that's very chaotic. And so you're not getting lab data that gives you exactly who that case is, and so we're having to go back and find who the case is, and figure that information out before you can even get to the contacts. And I think this speaks to the bigger issue, which is the underinvestment in public health that we've seen across the -- you know, the real decades. And so one of the challenges we have is that everybody's talking about contact tracing as if it's a buzzword. This is something that public health has used across the globe for decades --"]
+['Yes, yes.']
+----
+CNN-406875-11
+['Absolutely.']
+["Just doing that to remind our viewers of that. Respond to the president's repeated charge that mail-in voting will lead to the most fraudulent election in U.S. history. Is there any basis, factual basis for that?"]
+----
+35117 unique 2-person interviews were kept after filtering
+    	 out of which 23533 cnn and 11584 npr interviews
+    	 out of which 103999 cnn triples and 51245 npr triples interviews
+    	 [3540, 12675] pairs were removed due to short IE utterances
+    	 and [2940, 11389] pairs were removed due to short IR utterances
+    	 and [2409, 26419] interviews were removed due to too few addresses
+Filtered and shuffled interview guest, host items with DISTINCT 35117 interviews with 
+ 	 155244 (IE, IR)-pairs.
+
+Process finished with exit code 0
+

@@ -1,0 +1,7 @@
+# Data ignored files
+data/MediaSum/.~*
+data/MediaSum/news_dialogue.zip
+data/MediaSum/news_dialogue.json
+_*
+models/
+output/

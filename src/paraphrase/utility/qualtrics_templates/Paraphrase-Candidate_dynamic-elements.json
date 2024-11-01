@@ -1,0 +1,153 @@
+{"SurveyElements": [
+		{
+		"Element": "BL",
+		"PrimaryAttribute": "Survey Blocks",
+		"Payload": {
+			"11": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_Q-{}",				
+				"ID": "BL_Q-{}",
+				"BlockElements": [
+					{
+						"Type": "Question",
+						"QuestionID": "QID-{}-1"
+					}, {
+						"Type": "Question",
+						"QuestionID": "QID-{}-C"
+					}, {
+						"Type": "Question",
+						"QuestionID": "QID-{}-CL"
+					}, {
+					"Type": "Page Break"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Element": "FL",
+		"PrimaryAttribute": "Survey Flow",
+		"Payload": {
+			"Flow": [{
+						"Type": "Standard",
+						"ID": "BL_Q-{}",
+						"FlowID": "FL_25",
+						"Autofill": []
+					}]
+		}
+	},
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-1",
+		"SecondaryAttribute": "Given an interview on ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>\n<div><em>Given an interview on {} with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>{}<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>\n<br>\n<br>\n<strong>Guest ({}):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">{}<\/div>\n\n<div><br>\n<strong>Host ({}):<\/strong><\/div><div><strong><br><\/strong><\/div>\n\n<div style=\"margin-left: 40px;\">{}<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}",
+			"QuestionID": "QID-{}-1",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Given an interview on ...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"DataExportTag": "Q-{}-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				},
+				"4": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-{}-C",
+			"DefaultChoices": false,
+			"GradingData": [],
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	},
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-{}-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-{}-CL",
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionID": "QID-{}-CL"
+		}
+	}
+]}

@@ -1,0 +1,1902 @@
+{
+	"SurveyEntry": {
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"SurveyName": "23-04-05_Paraphrase_Candidate_Template",
+		"SurveyDescription": null,
+		"SurveyOwnerID": "UR_9QSK4XhrWgHS1ZY",
+		"SurveyBrandID": "utrechtuniversity",
+		"DivisionID": "DV_eURwDSPocVcPyCh",
+		"SurveyLanguage": "EN",
+		"SurveyActiveResponseSet": "RS_ewxPhotKLySaZMy",
+		"SurveyStatus": "Active",
+		"SurveyStartDate": "0000-00-00 00:00:00",
+		"SurveyExpirationDate": "0000-00-00 00:00:00",
+		"SurveyCreationDate": "2023-03-31 06:31:27",
+		"CreatorID": "UR_9QSK4XhrWgHS1ZY",
+		"LastModified": "2023-04-04 08:23:11",
+		"LastAccessed": "0000-00-00 00:00:00",
+		"LastActivated": "2023-04-04 01:23:32",
+		"Deleted": null
+	},
+	"SurveyElements": [
+		{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "BL",
+		"PrimaryAttribute": "Survey Blocks",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"0": {
+				"Type": "Default",
+				"Description": "Instructions and Attention Check",
+				"ID": "BL_2",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-Thank-You"
+				}, {
+					"Type": "Page Break"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-Example"
+				}, {
+					"Type": "Page Break"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-ExampleCopy"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-Definition"
+				}, {
+					"Type": "Page Break"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-Example-P"
+				}, {
+					"Type": "Page Break"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-NP-0"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-NP-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-NP"
+				}, {
+					"Type": "Page Break"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-P-0"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-P-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-P-3"
+				}]
+			},
+			"1": {
+				"Type": "Trash",
+				"ID": "BL_TRASH",
+				"Description": "Trash \/ Unused Questions",
+				"BlockElements": []
+			},
+			"4": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "Welcome Block",
+				"ID": "BL_Welcome",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QIDPID"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QIDConsent"
+				}]
+			},
+			"5": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "Annotation Start",
+				"ID": "BL_cRRmnys2kwXlPyS",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QIDIntroTask"
+				}]
+			},			
+			"6": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "Attention Check 2",
+				"ID": "BL_0feWe8G049EB0NM",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-AC2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC2-C"
+				}]
+			},
+			"7": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "Attention Check 1",
+				"ID": "BL_9YRbP8TO8cN2sGG",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-AC1"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-AC1-C"
+				}]
+			},
+			"8": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "End",
+				"ID": "BL_d0DjuWA0KgTAlxA",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QIDComment"
+				}]
+			},
+			"9": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_CC-1",
+				"ID": "BL_9yrmNS8hR2NY7ae",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-CC-1"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-CC-1-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-CC-1-CL"
+				}],
+				"Options": {
+					"BlockLocking": "false",
+					"RandomizeQuestions": "false",
+					"BlockVisibility": "Collapsed"
+				}
+			},
+			"10": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_CC-2",
+				"ID": "BL_8pp6RQExfV5R3XE",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-CC-2"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-CC-2-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-CC-2-CL"
+				}],
+				"Options": {
+					"BlockLocking": false,
+					"RandomizeQuestions": "false",
+					"BlockVisibility": "Collapsed"
+				}
+			},
+			"11": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_Q-NPR-4-2",
+				"ID": "BL_Q-NPR-4-2",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-NPR-4-2-1"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-NPR-4-2-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-NPR-4-2-CL"
+				}, {
+					"Type": "Page Break"
+				}]
+			},
+			"12": {
+				"Type": "Standard",
+				"SubType": "",
+				"Description": "BL_Q-CNN-5-2",
+				"ID": "BL_Q-CNN-5-2",
+				"BlockElements": [{
+					"Type": "Question",
+					"QuestionID": "QID-CNN-5-2-1"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-CNN-5-2-C"
+				}, {
+					"Type": "Question",
+					"QuestionID": "QID-CNN-5-2-CL"
+				}, {
+					"Type": "Page Break"
+				}]
+			}
+
+		}
+	}, 
+	{
+		"SurveyID": "SV_8bHMrd1vhVv1iiq",
+		"Element": "FL",
+		"PrimaryAttribute": "Survey Flow",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"Type": "Root",
+			"FlowID": "FL_1",
+			"Flow": [
+				{
+				"Type": "EmbeddedData",
+				"FlowID": "FL_6",
+				"EmbeddedData": [{
+					"Description": "PROLIFIC_PID",
+					"Type": "Recipient",
+					"Field": "PROLIFIC_PID",
+					"VariableType": "Nominal",
+					"DataVisibility": []
+				}, {
+					"Description": "Q_RESPONSE_TYPE",
+					"Type": "Custom",
+					"Field": "Q_RESPONSE_TYPE",
+					"VariableType": "MultiValueNominal",
+					"DataVisibility": [],
+					"Value": "In Process"
+				}, {
+					"Description": "Quality_Fails",
+					"Type": "Custom",
+					"Field": "Quality_Fails",
+					"VariableType": "String",
+					"DataVisibility": [],
+					"AnalyzeText": false,
+					"Value": "0"
+				}]
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_Welcome",
+				"FlowID": "FL_5",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Branch",
+				"FlowID": "FL_7",
+				"Description": "New Branch",
+				"BranchLogic": {
+					"0": {
+						"0": {
+							"LogicType": "Question",
+							"QuestionID": "QIDConsent",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QIDConsent\/SelectableChoice\/1",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QIDConsent",
+							"LeftOperand": "q:\/\/QIDConsent\/SelectableChoice\/1",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Consent question<\/span> <span class=\"LeftOpDesc\">Yes, begin with the study.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+						},
+						"Type": "If"
+					},
+					"Type": "BooleanExpression"
+				},
+				"Flow": [{
+					"Type": "EndSurvey",
+					"FlowID": "FL_8",
+					"EndingType": "Advanced",
+					"Options": {
+						"Advanced": "true",
+						"SurveyTermination": "DisplayMessage",
+						"EOSMessageLibrary": "UR_9QSK4XhrWgHS1ZY",
+						"EOSMessage": "MS_7Og8PlKhCteovBk"
+					}
+				}]
+			}, 
+			{
+				"Type": "Block",
+				"ID": "BL_2",
+				"FlowID": "FL_2",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_9YRbP8TO8cN2sGG",
+				"FlowID": "FL_15",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_cRRmnys2kwXlPyS",
+				"FlowID": "FL_22",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_9yrmNS8hR2NY7ae",
+				"FlowID": "FL_23",
+				"Autofill": []
+			},			
+			{
+				"Type": "Standard",
+				"ID": "BL_Q-NPR-4-2",
+				"FlowID": "FL_25",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_0feWe8G049EB0NM",
+				"FlowID": "FL_14",
+				"Autofill": []
+			}, 			
+			{
+				"Type": "Standard",
+				"ID": "BL_8pp6RQExfV5R3XE",
+				"FlowID": "FL_24",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_Q-CNN-5-2",
+				"FlowID": "FL_26",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Branch",
+				"FlowID": "FL_16",
+				"Description": "New Branch",
+				"BranchLogic": {
+					"0": {
+						"0": {
+							"LogicType": "Question",
+							"QuestionID": "QID-AC1-C",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-AC1-C",
+							"LeftOperand": "q:\/\/QID-AC1-C\/SelectableChoice\/4",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\"><\/span> <span class=\"LeftOpDesc\">is or is possibly paraphrasing something the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+						},
+						"Type": "If"
+					},
+					"Type": "BooleanExpression"
+				},
+				"Flow": [{
+					"Type": "Branch",
+					"FlowID": "FL_17",
+					"Description": "New Branch",
+					"BranchLogic": {
+						"0": {
+							"0": {
+								"LogicType": "Question",
+								"QuestionID": "QID-AC2-C",
+								"QuestionIsInLoop": "no",
+								"ChoiceLocator": "q:\/\/QID-AC2-C\/SelectableChoice\/3",
+								"Operator": "NotSelected",
+								"QuestionIDFromLocator": "QID-AC2-C",
+								"LeftOperand": "q:\/\/QID-AC2-C\/SelectableChoice\/3",
+								"Type": "Expression",
+								"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\"><\/span> <span class=\"LeftOpDesc\">is very clearly NOT paraphrasing anything the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+							},
+							"Type": "If"
+						},
+						"Type": "BooleanExpression"
+					},
+					"Flow": [{
+						"Type": "EndSurvey",
+						"FlowID": "FL_18",
+						"EndingType": "Advanced",
+						"Options": {
+							"Advanced": "true",
+							"SurveyTermination": "Redirect",
+							"EOSRedirectURL": "https:\/\/app.prolific.co\/submissions\/complete?cc=C1GQDKYV"
+						}
+					}, {
+						"Type": "EmbeddedData",
+						"FlowID": "FL_20",
+						"EmbeddedData": [{
+							"Description": "Quality_Fails",
+							"Type": "Custom",
+							"Field": "Quality_Fails",
+							"VariableType": "String",
+							"DataVisibility": [],
+							"AnalyzeText": false,
+							"Value": "2"
+						}]
+					}]
+				}, {
+					"Type": "EmbeddedData",
+					"FlowID": "FL_19",
+					"EmbeddedData": [{
+						"Description": "Quality_Fails",
+						"Type": "Custom",
+						"Field": "Quality_Fails",
+						"VariableType": "String",
+						"DataVisibility": [],
+						"AnalyzeText": false,
+						"Value": "1"
+					}]
+				}]
+			}, 
+			{
+				"Type": "Standard",
+				"ID": "BL_d0DjuWA0KgTAlxA",
+				"FlowID": "FL_21",
+				"Autofill": []
+			}, 
+			{
+				"Type": "Branch",
+				"FlowID": "FL_13",
+				"Description": "New Branch",
+				"BranchLogic": {
+					"0": {
+						"0": {
+							"LogicType": "Question",
+							"QuestionID": "QID-CC-1-C",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-CC-1-C\/SelectableChoice\/3",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-CC-1-C",
+							"LeftOperand": "q:\/\/QID-CC-1-C\/SelectableChoice\/3",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is or is possibly paraphrasing something the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> "
+						},
+						"1": {
+							"LogicType": "Question",
+							"QuestionID": "QID-CC-2-C",
+							"QuestionIsInLoop": "no",
+							"ChoiceLocator": "q:\/\/QID-CC-2-C\/SelectableChoice\/4",
+							"Operator": "NotSelected",
+							"QuestionIDFromLocator": "QID-CC-2-C",
+							"LeftOperand": "q:\/\/QID-CC-2-C\/SelectableChoice\/4",
+							"Type": "Expression",
+							"Description": "<span class=\"ConjDesc\">Or<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">is very clearly NOT paraphrasing anything the guest said.<\/span> <span class=\"OpDesc\">Is Not Selected<\/span> ",
+							"Conjuction": "Or"
+						},
+						"Type": "If"
+					},
+					"Type": "BooleanExpression"
+				},
+				"Flow": [{
+					"Type": "EndSurvey",
+					"FlowID": "FL_31",
+					"EndingType": "Advanced",
+					"Options": {
+						"Advanced": "true",
+						"SurveyTermination": "Redirect",
+						"EOSRedirectURL": "https:\/\/app.prolific.co\/submissions\/complete?cc=C1NIHABB"
+					}
+				}]
+			}, 			
+			{
+				"Type": "EmbeddedData",
+				"FlowID": "FL_9",
+				"EmbeddedData": [{
+					"Description": "Q_RESPONSE_TYPE",
+					"Type": "Custom",
+					"Field": "Q_RESPONSE_TYPE",
+					"VariableType": "MultiValueNominal",
+					"DataVisibility": [],
+					"Value": "Valid"
+				}]
+			}],
+			"Properties": {
+				"Count": 26,
+				"RemovedFieldsets": []
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "PL",
+		"PrimaryAttribute": "Preview Link",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"PreviewType": "Brand",
+			"PreviewID": "23a35810-c438-4365-b3f1-11bf49a97f39"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SO",
+		"PrimaryAttribute": "Survey Options",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"BackButton": "true",
+			"SaveAndContinue": "true",
+			"SurveyProtection": "PublicSurvey",
+			"BallotBoxStuffingPrevention": "false",
+			"NoIndex": "Yes",
+			"SecureResponseFiles": "true",
+			"SurveyExpiration": "None",
+			"SurveyTermination": "Redirect",
+			"Header": "",
+			"Footer": "",
+			"ProgressBarDisplay": "VerboseText",
+			"PartialData": "+1 week",
+			"ValidationMessage": null,
+			"PreviousButton": " \u2190 ",
+			"NextButton": " \u2192 ",
+			"SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+			"SkinLibrary": "utrechtuniversity",
+			"SkinType": "templated",
+			"Skin": {
+				"brandingId": "381247668",
+				"templateId": "*base",
+				"overrides": null
+			},
+			"NewScoring": 1,
+			"SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today.",
+			"ProtectSelectionIds": true,
+			"CustomStyles": [],
+			"EOSMessage": null,
+			"ShowExportTags": "false",
+			"CollectGeoLocation": "false",
+			"PasswordProtection": "No",
+			"AnonymizeResponse": "No",
+			"RefererCheck": "No",
+			"BallotBoxStuffingPreventionBehavior": null,
+			"BallotBoxStuffingPreventionMessage": null,
+			"BallotBoxStuffingPreventionMessageLibrary": null,
+			"BallotBoxStuffingPreventionURL": null,
+			"RecaptchaV3": "true",
+			"ConfirmStart": false,
+			"AutoConfirmStart": false,
+			"UseCustomSurveyLinkCompletedMessage": null,
+			"SurveyLinkCompletedMessage": null,
+			"SurveyLinkCompletedMessageLibrary": null,
+			"ResponseSummary": "No",
+			"EOSMessageLibrary": null,
+			"EOSRedirectURL": "https:\/\/app.prolific.co\/submissions\/complete?cc=C46NEV42",
+			"EmailThankYou": "false",
+			"ThankYouEmailMessageLibrary": null,
+			"ThankYouEmailMessage": null,
+			"ValidateMessage": "false",
+			"ValidationMessageLibrary": null,
+			"InactiveSurvey": "DefaultMessage",
+			"PartialDeletion": null,
+			"PartialDataCloseAfter": "LastActivity",
+			"InactiveMessageLibrary": null,
+			"InactiveMessage": null,
+			"AvailableLanguages": {
+				"EN": []
+			},
+			"SurveyName": "Candidate Template"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "PROJ",
+		"PrimaryAttribute": "CORE",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": "1.1.0",
+		"Payload": {
+			"ProjectCategory": "CORE",
+			"SchemaVersion": "1.1.0"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "STAT",
+		"PrimaryAttribute": "Survey Statistics",
+		"SecondaryAttribute": null,
+		"TertiaryAttribute": null,
+		"Payload": {
+			"MobileCompatible": true,
+			"ID": "Survey Statistics"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "QC",
+		"PrimaryAttribute": "Survey Question Count",
+		"SecondaryAttribute": "158",
+		"TertiaryAttribute": null,
+		"Payload": null
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-Definition",
+		"SecondaryAttribute": "A Paraphrase is a rewording or repetition of content in the guest's statement. We ask you to sele...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "A <strong>Paraphrase<\/strong> is a <u><strong>rewording or repetition<\/strong><\/u> of content in the guest&#39;s statement. We ask you to select whether the host is very clearly <strong>not<\/strong> paraphrasing the guest. In the example above the host clearly doesn&#39;t paraphrase what the guest said and instead adds something new.",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-Definition",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "A Paraphrase is a rewording or repetition of content in the guest's statement. We ask you to sele...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-Definition"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QIDConsent",
+		"SecondaryAttribute": "Consent question",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>In this study on news interviews, we ask you to select whether there clearly is no paraphrase in a sentence. Your responses to the survey tasks (without the Prolific ID) will be used for research and can be distributed publicly.<br>\n<br>\nDo you consent to this?<\/div>",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"Configuration": {
+				"QuestionDescriptionOption": "SpecifyLabel"
+			},
+			"QuestionDescription": "Consent question",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"SubSelector": "TX",
+			"Choices": {
+				"1": {
+					"Display": "Yes, start with the survey."
+				},
+				"2": {
+					"Display": "No, take me back."
+				}
+			},
+			"ChoiceOrder": ["1", "2"],
+			"QuestionText_Unsafe": "<div>In this study, we do not collect any sensitive data from you. The only personalized data we save is your prolific id. We will only make use of the id for communication with you within the prolific platform. However, your responses (without the prolific id) will be used for research and can be distributed publicly.<br><br>Do you consent to this?<br><\/div>",
+			"DataExportTag": "Q-Consent",
+			"QuestionID": "QIDConsent",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"NextChoiceId": 3,
+			"NextAnswerId": 1
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "RS",
+		"PrimaryAttribute": "RS_ewxPhotKLySaZMy",
+		"SecondaryAttribute": "Default Response Set",
+		"TertiaryAttribute": null,
+		"Payload": null
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QIDComment",
+		"SecondaryAttribute": "End comment question",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "Thank you for your participation.<br><br>Do you have any further comments?",
+			"QuestionType": "TE",
+			"Selector": "ESTB",
+			"Configuration": {
+				"QuestionDescriptionOption": "SpecifyLabel",
+				"InputWidth": 680,
+				"InputHeight": 196
+			},
+			"QuestionDescription": "End comment question",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"QuestionText_Unsafe": "Thank you for your participation.<br><br>Do you have any comments?",
+			"DataExportTag": "Q-Comment",
+			"QuestionID": "QIDComment",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"NextChoiceId": 3,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"DefaultChoices": false,
+			"Choices": {
+				"1": {
+					"Display": "Click to write Form Field 1"
+				}
+			},
+			"ChoiceOrder": ["1"],
+			"GradingData": []
+		}
+	},
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-Example",
+		"SecondaryAttribute": "In every question, you will see a news interview summary, a statement said by the interview guest...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>\n<div>In every question, you will see a news interview summary, a statement said by the interview guest, followed by a reply from the interview host taken from a real news interview. We are interested in whether the host is very clearly <strong>not<\/strong> paraphrasing anything the guest said.<\/div>\n\n<div>&nbsp;<\/div>\n\n<div>For example:<\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Summary:<\/strong> The Rising Interest Rate Environment<br \/>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Guest <\/strong><strong>(SUNNY HOSTIN, LEGAL CONTRIBUTOR, &quot;IN SESSION,&quot; TRUTV): <\/strong>That&#39;s right,&nbsp; --&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><br \/>\n<strong>Host <\/strong><strong>(BALDWIN): <\/strong>And that&#39;s going to end. The Fed said so.<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-Example",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In every question, you will see a news interview summary, a statement said by the interview guest...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-Example"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-ExampleCopy",
+		"SecondaryAttribute": "In every question, you will see a news interview summary, a statement said by the interview guest...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>\n<div>In every question, you will see a news interview summary, a statement said by the interview guest, followed by a reply from the interview host taken from a real news interview. We are interested in whether the host is very clearly <strong>not<\/strong> paraphrasing anything the guest said.<\/div>\n\n<div>&nbsp;<\/div>\n\n<div>For example:<\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Summary: <\/strong>The Rising Interest Rate Environment<br \/>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Guest <\/strong><strong>(SUNNY HOSTIN, LEGAL CONTRIBUTOR, &quot;IN SESSION,&quot; TRUTV): <\/strong>That&#39;s right,&nbsp; --&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><br \/>\n<strong>Host <\/strong><strong>(BALDWIN): <\/strong>And that&#39;s going to end. The Fed said so.<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-ExampleCopy",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In every question, you will see a news interview summary, a statement said by the interview guest...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-ExampleCopy",
+			"QuestionJS": "Qualtrics.SurveyEngine.addOnload(function()\n{\n\t\/*Place your JavaScript here to run when the page loads*\/\n\n});\n\nQualtrics.SurveyEngine.addOnReady(function()\n{\n\t\/*Place your JavaScript here to run when the page is fully displayed*\/\n\tjQuery(\".QuestionOuter\").last().get(0).scrollIntoView();\t\n\tthis.hideNextButton();\n\tthat = this\n\tsetTimeout(function(){ \n\t\tthat.showNextButton();\n\t}, 4000);\n});\n\nQualtrics.SurveyEngine.addOnUnload(function()\n{\n\t\/*Place your JavaScript here to run when the page is unloaded*\/\n\n});"
+		}
+	},
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-Example-P",
+		"SecondaryAttribute": "In the following example, there is a paraphrase present: \u00a0 Summary: Fresh Prince Star Alfonso Rib..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>In the following example, there is a <span style=\"background-color:#bdc3c7;\">paraphrase<\/span> present:<\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Summary:<\/strong> Fresh Prince Star Alfonso Ribeiro Sues Over Dance Moves; Rapper 2 Milly Alleges His Dance Moves were Copied.<br \/>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\"><strong>Guest (TERRENCE FERGUSON, RAPPER): <\/strong>Even like big artists, major artists like Joe Buttons and stuff, they have their own like show, daily struggle, they say, you, you must sue &quot;Fortnite&quot;, and I&#39;m like, &quot;Fortnite&quot;, what is that? I don&#39;t even know what it is --<br \/>\n<br \/>\n<strong>Host (QUEST): <\/strong><span style=\"background-color:#bdc3c7;\">So you weren&#39;t even familiar?<\/span><strong> <\/strong><\/div>\n\n<div style=\"margin-left: 40px;\">&nbsp;<\/div>\n\n<div>If you are unsure, we ask you to select &quot;The host is or is possibly paraphrasing the guest.&quot;.<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-Example-P",
+			"QuestionID": "QID-Example-P",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the following example, there is a paraphrase present: \u00a0 Summary: Fresh Prince Star Alfonso Rib...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1
+		}
+	},
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-NP-0",
+		"SecondaryAttribute": "Let's try the following example. \u00a0 Given an interview on 2011-4-24 with the summary: \u00a0 The Rising.",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>Let&#39;s try the following example<em>.<\/em><br \/>\n&nbsp;\n<div><em>Given an interview on 2018-12-17 with the summary:<\/em><br \/>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div class=\"storytext storylocation linkLocation\" id=\"storytext\">\n<p><strong>NPR&#39;s Mary Louise Kelly speaks with Jorge Makriniotis, the general manager of Venezuela&#39;s only remaining nationally circulated and anti-government newspaper, about publishing its final edition.<\/strong><\/p>\n<\/div>\n<\/div>\n\n<div><br \/>\n<em>Guest and Host say the following:<\/em><br \/>\n&nbsp;\n<div><strong>Guest (MAKRINIOTIS): <\/strong><br \/>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">The regime don&#39;t like the people to hear the truth. El Nacional speaks for the Venezuelans. It doesn&#39;t speak for the government.<\/div>\n\n<div><br \/>\n<br \/>\n<strong>Host (KELLY):<\/strong><br \/>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">I know the plan is to continue publishing a robust newspaper online. But Venezuela has some of the worst internet in Latin America. You may be posting content online. Are you confident that your readers will be able to access it?<\/div>\n<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-NP",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Let's try the following example. \u00a0 Given an interview on 2011-4-24 with the summary: \u00a0 The Rising...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-NP-0"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-P-3",
+		"SecondaryAttribute": "Great. Here, \"Ms. Lawyer, talking, talking, talking\" could be understood as a way to rephrase \"th...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "Great. Here, \"and the doctors did say, just a short while ago, he's expected make a full recovery\" could be understood as a way to rephrase \"they tell me he's improved a lot\" although it is doesn't exactly have the same meaning -- in one version the family says something, while in the other the doctors do. <span style=\"color:#c0392b;\"><strong>When there is a paraphrase or you are unsure, we ask you to select \"The host is or is possibly paraphrasing something the guest said.\"<\/strong><\/span>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-P-Explanation",
+			"QuestionID": "QID-P-3",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Great. Here, \"Ms. Lawyer, talking, talking, talking\" could be understood as a way to rephrase \"th...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-P-C\/SelectableChoice\/3",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">The host is or is possibly paraphrasing something the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-P-C\/SelectableChoice\/3",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-P-C",
+						"QuestionIDFromLocator": "QID-P-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			}
+		}
+	}, 
+ 	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-P-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-P-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				},
+				"4": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "CustomValidation",
+					"CustomValidation": {
+						"Logic": {
+							"0": {
+								"0": {
+									"QuestionID": "QID-P-C",
+									"QuestionIsInLoop": "no",
+									"ChoiceLocator": "q:\/\/QID-P-C\/SelectableChoice\/3",
+									"Operator": "Selected",
+									"QuestionIDFromLocator": "QID-P-C",
+									"LeftOperand": "q:\/\/QID-P-C\/SelectableChoice\/3",
+									"Type": "Expression",
+									"LogicType": "Question",
+									"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">In the reply, the host ...<\/span> <span class=\"LeftOpDesc\">The host is or is possibly paraphrasing something the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> "
+								},
+								"Type": "If"
+							},
+							"Type": "BooleanExpression"
+						},
+						"Message": {
+							"messageID": "MS_37wDY0C1alx0Oxg",
+							"subMessageID": "VE_ERROR",
+							"libraryID": "UR_9QSK4XhrWgHS1ZY",
+							"description": "Error Text"
+						}
+					}
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-P-C"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-NP-C",
+		"SecondaryAttribute": "Please select one of the two:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-NP-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				},
+				"4": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				}
+			},
+			"ChoiceOrder": ["3", "4"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "CustomValidation",
+					"CustomValidation": {
+						"Logic": {
+							"0": {
+								"0": {
+									"ChoiceLocator": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+									"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Please select one of the two:<\/span> <span class=\"LeftOpDesc\">The host clearly and without any doubt does not paraphrase anything the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+									"LeftOperand": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+									"LogicType": "Question",
+									"Operator": "Selected",
+									"QuestionID": "QID-NP-C",
+									"QuestionIDFromLocator": "QID-NP-C",
+									"QuestionIsInLoop": "no",
+									"Type": "Expression"
+								},
+								"Type": "If"
+							},
+							"Type": "BooleanExpression"
+						},
+						"Message": {
+							"description": "Error Text",
+							"libraryID": "UR_9QSK4XhrWgHS1ZY",
+							"messageID": "MS_8fbiBSU702mFZZQ",
+							"subMessageID": "VE_ERROR"
+						}
+					}
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 6,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-NP-C"
+		}
+	},
+ 	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QIDPID",
+		"SecondaryAttribute": "Prolific ID question",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>&nbsp;Please enter your Prolific ID here:<\/div>",
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"Configuration": {
+				"QuestionDescriptionOption": "SpecifyLabel"
+			},
+			"QuestionDescription": "Prolific ID question",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "RequestResponse",
+					"ForceResponseType": "RequestResponse",
+					"Type": "MinChar",
+					"MinChars": "1"
+				}
+			},
+			"Language": [],
+			"DefaultChoices": {
+				"TEXT": {
+					"Text": "${e:\/\/Field\/PROLIFIC_PID}"
+				}
+			},
+			"QuestionText_Unsafe": "<div>Before you start, please switch off phone\/ e-mail\/ music so you can focus on this study.<\/div><br>Thank you!<br><br>Please enter your Prolific ID here:",
+			"DataExportTag": "Q-PID",
+			"QuestionID": "QIDPID",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-Thank-You",
+		"SecondaryAttribute": "Thank you for taking part in this study on finding clear non-paraphrases in the context of news i...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>Thank you for taking part in this study on finding clear non-paraphrases in the context of news interviews. Your contribution is very important to our research and will directly impact the quality of our results.<br><\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-Thank-You",
+			"QuestionID": "QID-Thank-You",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Thank you for taking part in this study on finding clear non-paraphrases in the context of news i...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-P-0",
+		"SecondaryAttribute": "There are some cases where it is harder to tell. Let's try one like that. \u00a0 Given an interview on..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "There are some cases where it is harder to tell. Let's try one like that.<br>\n&nbsp;\n<div><em>Guest and Host say the following:<\/em><br>\n&nbsp;\n<div><strong>Guest (HENRY KISSINGER, FMR. SECRETARY OF STATE):<\/strong><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">No, I haven't talked to him but I've talked to his secretary and we've passed messages back and forth between the family and me. And they tell me he's improved a lot.<\/div>\n\n<div><br>\n<strong>Host (NATALIE ALLEN, CNN ANCHOR):<\/strong><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">I'm sure that will cheer him up, to have a visit from you, and the doctors did say, just a short while ago, he's expected make a full recovery.<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-P",
+			"QuestionID": "QID-P-0",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "There are some cases where it is harder to tell. Let's try one like that. \u00a0 Given an interview on...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-NP",
+		"SecondaryAttribute": "You are correct, the host clearly doesn't paraphrase the guest. Instead Blitzer continues to talk...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "You are correct, the host clearly doesn't paraphrase the guest. Instead Kelly continues to talk about something else. <span style=\"color:#c0392b;\"><strong>We ask you to only select this option if you are sure. We expect that you will still select it in most cases because the host says something that very clearly doesn't contain a paraphrase<\/strong><\/span>.",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-NP-Explanation",
+			"QuestionID": "QID-NP",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "You are correct, the host clearly doesn't paraphrase the guest. Instead Blitzer continues to talk...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"InPageDisplayLogic": {
+				"0": {
+					"0": {
+						"ChoiceLocator": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+						"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Please select one of the two:<\/span> <span class=\"LeftOpDesc\">The host clearly and without any doubt does not paraphrase anything the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+						"LeftOperand": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+						"LogicType": "Question",
+						"Operator": "Selected",
+						"QuestionID": "QID-NP-C",
+						"QuestionIDFromLocator": "QID-NP-C",
+						"QuestionIsInLoop": "no",
+						"Type": "Expression"
+					},
+					"Type": "If"
+				},
+				"Type": "BooleanExpression",
+				"inPage": true
+			},
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	},
+	{
+		"SurveyID": "SV_3fsgeaKzU3q7DkW",
+		"Element": "SQ",
+		"PrimaryAttribute": "QIDIntroTask",
+		"SecondaryAttribute": "Great! On to the annotations. ",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "Great! On to the annotations.",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-IntroTask",
+			"QuestionID": "QIDIntroTask",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Great! On to the annotations. ",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	},
+	{
+		"SurveyID": "SV_3gdonYgTpKKdDWC",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2",
+		"SecondaryAttribute": "The following is an attention check. Select \"is very clearly NOT paraphrasing an...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>The following is an attention check. Select \"is very clearly NOT paraphrasing anything the guest said.\".<br>\n&nbsp;\n<div><em>Given an interview on 2011-4-24 with the summary:<\/em><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>The Rising Interest Rate Environment<\/strong><br>\n&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><br>\n&nbsp;\n<div><strong>Guest (DOUG FLYNN, CERTIFIED FINANCIAL PLANNER, FLYNN ZITO CAPITAL MANAGEMENT): <\/strong><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">That's right,  -- <\/div>\n\n<div><br>\n<br>\n<strong>Host (ALI VELSHI, HOST): <\/strong><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">And that's going to end. The Fed said so.<\/div>\n<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-AC2",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "The following is an attention check. Select \"is very clearly NOT paraphrasing an...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-AC2"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3gdonYgTpKKdDWC",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1",
+		"SecondaryAttribute": "The following is an attention check. Select \"is or is possibly paraphrasing something the guest s...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>The following is an attention check. Select \"is or is possibly paraphrasing something the guest said.\".<em><\/em><br>\n&nbsp;\n<div><em>Given an interview on 2011-4-24 with the summary:<\/em><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div class=\"storytext storylocation linkLocation\" id=\"storytext\">\n<p><strong>Fresh Prince Star Alfonso Ribeiro Sues Over Dance Moves; Rapper 2 Milly Alleges His Dance Moves were Copied.<\/strong><br>\n&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><br>\n&nbsp;\n<div><strong>Guest (TERRENCE FERGUSON, RAPPER): <\/strong><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">Even like big artists, major artists like Joe Buttons and stuff, they have their own like show, daily struggle, they say, you, you must sue \"Fortnite\", and I'm like, \"Fortnite\", what is that? I don't even know what it is --<\/div>\n\n<div><br>\n<br>\n<strong>Host (QUEST): <\/strong><br>\n&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">So you weren't even familiar?<\/div>\n<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-AC1",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "The following is an attention check. Select \"is or is possibly paraphrasing something the guest s...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-AC1"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3gdonYgTpKKdDWC",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC2-C",
+		"SecondaryAttribute": "Please select one of the two:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "Please select one of the two:<br>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-AC2-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Please select one of the two:",
+			"Choices": {
+				"3": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				},
+				"4": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				}
+			},
+			"ChoiceOrder": ["3", "4"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "CustomValidation",
+					"CustomValidation": {
+						"Logic": {
+							"0": {
+								"0": {
+									"ChoiceLocator": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+									"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Please select one of the two:<\/span> <span class=\"LeftOpDesc\">The host clearly and without any doubt does not paraphrase anything the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+									"LeftOperand": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+									"LogicType": "Question",
+									"Operator": "Selected",
+									"QuestionID": "QID-NP-C",
+									"QuestionIDFromLocator": "QID-NP-C",
+									"QuestionIsInLoop": "no",
+									"Type": "Expression"
+								},
+								"Type": "If"
+							},
+							"Type": "BooleanExpression"
+						},
+						"Message": {
+							"description": "Error Text",
+							"libraryID": "UR_9QSK4XhrWgHS1ZY",
+							"messageID": "MS_8fbiBSU702mFZZQ",
+							"subMessageID": "VE_ERROR"
+						}
+					}
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 6,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-AC2-C"
+		}
+	}, 
+	{
+		"SurveyID": "SV_3gdonYgTpKKdDWC",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-AC1-C",
+		"SecondaryAttribute": "Please select one of the two:",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "Please select one of the two:<br>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-AC1-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Please select one of the two:",
+			"Choices": {
+				"3": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				},
+				"4": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				}
+			},
+			"ChoiceOrder": ["3", "4"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "CustomValidation",
+					"CustomValidation": {
+						"Logic": {
+							"0": {
+								"0": {
+									"ChoiceLocator": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+									"Description": "<span class=\"ConjDesc\">If<\/span> <span class=\"QuestionDesc\">Please select one of the two:<\/span> <span class=\"LeftOpDesc\">The host clearly and without any doubt does not paraphrase anything the guest said.<\/span> <span class=\"OpDesc\">Is Selected<\/span> ",
+									"LeftOperand": "q:\/\/QID-NP-C\/SelectableChoice\/3",
+									"LogicType": "Question",
+									"Operator": "Selected",
+									"QuestionID": "QID-NP-C",
+									"QuestionIDFromLocator": "QID-NP-C",
+									"QuestionIsInLoop": "no",
+									"Type": "Expression"
+								},
+								"Type": "If"
+							},
+							"Type": "BooleanExpression"
+						},
+						"Message": {
+							"description": "Error Text",
+							"libraryID": "UR_9QSK4XhrWgHS1ZY",
+							"messageID": "MS_8fbiBSU702mFZZQ",
+							"subMessageID": "VE_ERROR"
+						}
+					}
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 6,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-AC1-C"
+		}
+	},		
+	{
+		"SurveyID": "SV_elp659YXTrjRSRM",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CC-1",
+		"SecondaryAttribute": "Given an interview on 2013-10-01 with the summary: \u00a0 Government Shutdown; Interview With Idaho Co..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>\n<div><em>Given an interview on 2013-10-01 with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>Government Shutdown; Interview With Idaho Congressman Raul Labrador<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>\n<br>\n<br>\n<strong>Guest (REP. RAUL LABRADOR (R), IDAHO):<\/strong><\/div>\n\n\n\n<div style=\"margin-left: 40px;\">&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">That's what we have been asking the president. We would like the senators to actually come and negotiate with us. So I think that would be a terrific idea.<br>\n&nbsp;<\/div>\n\n<div>\n<div><strong>Host (BLITZER):<\/strong><br>\n<\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">You say you want to negotiate, but what about the debt ceiling? Are you ready to see that go up without any strings attached, as the president demands?<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-CC-1",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Given an interview on 2013-10-01 with the summary: \u00a0 Government Shutdown; Interview With Idaho Co...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-CC-1"
+		}
+	}, 	
+	{
+		"SurveyID": "SV_elp659YXTrjRSRM",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CC-1-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-CC-1-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				},
+				"4": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-CC-1-C"
+		}
+	}, 	
+	{
+		"SurveyID": "SV_elp659YXTrjRSRM",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CC-1-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-CC-1-CL",
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionID": "QID-CC-1-CL"
+		}
+	}, 	
+	{
+		"SurveyID": "SV_elp659YXTrjRSRM",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CC-2",
+		"SecondaryAttribute": "Given an interview on 2013-10-01 with the summary: \u00a0 Government Shutdown; Interview With Idaho Co..",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>\n<div><em>Given an interview on 2013-10-01 with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div class=\"storytext storylocation linkLocation\" id=\"storytext\">\n<p><strong>Government Shutdown; Interview With Idaho Congressman Raul Labrador<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>\n<br \/>\n<br \/>\n<strong>Guest (REP. RAUL LABRADOR (R), IDAHO):<\/strong><\/div>\n\n<div style=\"margin-left: 40px;\">&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">I do not. I think, when the American people see that we&#39;re asking -- we are trying to be reasonable. We have been asking to keep the government open. We haven&#39;t been talking about a government shutdown. It&#39;s actually been the Democrats who have been talking about the government shutdown. And I suspect that they looked at the polls and they believe in their mind that a government shutdown actually hurts the Republican Party. And I think that&#39;s why they have been so unwilling to negotiate with us.<br \/>\n&nbsp;<\/div>\n\n<div>\n<div><strong>Host (BLITZER):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">Some of your colleagues have said they&#39;re going to forego their salaries. Where do you stand on that?<\/div>\n<\/div>",
+			"DefaultChoices": false,
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Given an interview on 2013-10-01 with the summary: \u00a0 Government Shutdown; Interview With Idaho Co...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "<div>\n<div><em>Given an interview on 2013-10-01 with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>Government Shutdown; Interview With Idaho Congressman Raul Labrador<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>\n<br>\n<br>\n<strong>Guest (REP. RAUL LABRADOR (R), IDAHO):<\/strong><\/div>\n\n\n\n<div style=\"margin-left: 40px;\">&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">That's what we have been asking the president. We would like the senators to actually come and negotiate with us. So I think that would be a terrific idea.<br>\n&nbsp;<\/div>\n\n<div>\n<div><strong>Host (BLITZER):<\/strong><br>\n<\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">You say you want to negotiate, but what about the debt ceiling? Are you ready to see that go up without any strings attached, as the president demands?<\/div>\n<\/div>",
+			"DataExportTag": "Q-CC-2",
+			"QuestionID": "QID-CC-2"
+		}
+	}, 
+	{
+		"SurveyID": "SV_elp659YXTrjRSRM",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CC-2-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"DefaultChoices": false,
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				},
+				"4": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"QuestionText_Unsafe": "In the reply, the host ...<br>",
+			"DataExportTag": "Q-CC-2-C",
+			"QuestionID": "QID-CC-2-C"
+		}
+	}, 	
+	{
+		"SurveyID": "SV_elp659YXTrjRSRM",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CC-2-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionText_Unsafe": "<em>Do you have comments on this question?<\/em>",
+			"DataExportTag": "Q-CC-2-CL",
+			"QuestionID": "QID-CC-2-CL"
+		}
+	}, 		
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-NPR-4-2-1",
+		"SecondaryAttribute": "Given an interview on ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>\n<div><em>Given an interview on 2016-08-30 with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>Author Khaled Hosseini has made a career out of writing about his native Afghanistan, and now he is using his literary fame to draw attention to the plight of refugees in Afghanistan. He speaks with guest host Mary Louise Kelly about his visit there as a goodwill envoy for the United Nations High Commissioner for Refugees in Afghanistan.<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>\n<br>\n<br>\n<strong>Guest (Khaled Hosseini):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">So they also allow people to have - you know, there's a saying in Afghanistan that go hungry if you must but may you never go homeless. And that's why I've decided to focus on the issue of shelter.<\/div>\n\n<div><br>\n<strong>Host (Mary Louise Kelly):<\/strong><\/div><div><strong><br><\/strong><\/div>\n\n<div style=\"margin-left: 40px;\">I know you've been going there the past few years and trying to help move along this process. Are you able to see progress? Are you able to see that things look different, better than they did a couple of years ago?<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-NPR-4-2",
+			"QuestionID": "QID-NPR-4-2-1",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Given an interview on ...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-NPR-4-2-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"DataExportTag": "Q-NPR-4-2-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				},
+				"4": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-NPR-4-2-C",
+			"DefaultChoices": false,
+			"GradingData": [],
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	},
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-NPR-4-2-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-NPR-4-2-CL",
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionID": "QID-NPR-4-2-CL"
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CNN-5-2-1",
+		"SecondaryAttribute": "Given an interview on ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<div>\n<div><em>Given an interview on 2016-08-30 with the summary:<\/em><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">\n<div id=\"storytext\" class=\"storytext storylocation linkLocation\">\n<p><strong>Author Khaled Hosseini has made a career out of writing about his native Afghanistan, and now he is using his literary fame to draw attention to the plight of refugees in Afghanistan. He speaks with guest host Mary Louise Kelly about his visit there as a goodwill envoy for the United Nations High Commissioner for Refugees in Afghanistan.<\/strong><\/p>\n\n<p>&nbsp;<\/p>\n<\/div>\n<\/div>\n\n<div><em>Guest and Host say the following:<\/em><\/div>\n<br>\n<br>\n<strong>Guest (Khaled Hosseini):<\/strong><\/div>\n\n<div>&nbsp;<\/div>\n\n<div style=\"margin-left: 40px;\">So they also allow people to have - you know, there's a saying in Afghanistan that go hungry if you must but may you never go homeless. And that's why I've decided to focus on the issue of shelter.<\/div>\n\n<div><br>\n<strong>Host (Mary Louise Kelly):<\/strong><\/div><div><strong><br><\/strong><\/div>\n\n<div style=\"margin-left: 40px;\">I know you've been going there the past few years and trying to help move along this process. Are you able to see progress? Are you able to see that things look different, better than they did a couple of years ago?<\/div>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-CNN-5-2",
+			"QuestionID": "QID-CNN-5-2-1",
+			"QuestionType": "DB",
+			"Selector": "TB",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Given an interview on ...",
+			"ChoiceOrder": [],
+			"Validation": {
+				"Settings": {
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 4,
+			"NextAnswerId": 1,
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CNN-5-2-C",
+		"SecondaryAttribute": "In the reply, the host ...",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "In the reply, the host ...<br>",
+			"DataExportTag": "Q-CNN-5-2-C",
+			"QuestionType": "MC",
+			"Selector": "SAVR",
+			"SubSelector": "TX",
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "In the reply, the host ...",
+			"Choices": {
+				"3": {
+					"Display": "is or is possibly paraphrasing something the guest said."
+				},
+				"4": {
+					"Display": "is very clearly NOT paraphrasing anything the guest said."
+				}
+			},
+			"ChoiceOrder": ["4", "3"],
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "ON",
+					"ForceResponseType": "ON",
+					"Type": "None"
+				}
+			},
+			"Language": [],
+			"NextChoiceId": 5,
+			"NextAnswerId": 1,
+			"QuestionID": "QID-CNN-5-2-C",
+			"DefaultChoices": false,
+			"GradingData": [],
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			}
+		}
+	}, 
+	{
+		"SurveyID": "SV_eE9d0n4SLQb9X2S",
+		"Element": "SQ",
+		"PrimaryAttribute": "QID-CNN-5-2-CL",
+		"SecondaryAttribute": "Do you have comments on this question?",
+		"TertiaryAttribute": null,
+		"Payload": {
+			"QuestionText": "<em>Do you have comments on this question?<\/em>",
+			"DefaultChoices": false,
+			"DataExportTag": "Q-CNN-5-2-CL",
+			"QuestionType": "TE",
+			"Selector": "SL",
+			"DataVisibility": {
+				"Private": false,
+				"Hidden": false
+			},
+			"Configuration": {
+				"QuestionDescriptionOption": "UseText"
+			},
+			"QuestionDescription": "Do you have comments on this question?",
+			"Validation": {
+				"Settings": {
+					"ForceResponse": "OFF",
+					"Type": "None"
+				}
+			},
+			"GradingData": [],
+			"Language": [],
+			"NextChoiceId": 1,
+			"NextAnswerId": 1,
+			"SearchSource": {
+				"AllowFreeResponse": "false"
+			},
+			"QuestionID": "QID-CNN-5-2-CL"
+		}
+	}	
+]
+}
