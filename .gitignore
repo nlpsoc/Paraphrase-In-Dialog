@@ -5,3 +5,4 @@ data/MediaSum/news_dialogue.json
 _*
 models/
 output/
+.DS_Store

@@ -2,8 +2,6 @@
 
 Great that you are here. This is the repository for our EMNLP 2024 main conference paper "What's Mine becomes Yours: Detecting Context-Dependent Paraphrases in News Interview Dialogs", see the preprint [on arxiv](https://arxiv.org/abs/2404.06670). You probably are either interested in the **annotated data** (https://huggingface.co/datasets/AnnaWegmann/Paraphrases-in-Interviews) or using a **computational model to predict paraphrases in dialog** (see https://huggingface.co/AnnaWegmann/Highlight-Paraphrases-in-Dialog-ALL for the ALL model and https://huggingface.co/AnnaWegmann/Highlight-Paraphrases-in-Dialog for the AGGREGATED model).
 
-**Correction**: In our EMNLP Poster/Presentation we provide the same running example exchange (QID: CNN-80522-7). This item was actually annotated by 3 and not 20 annotators. We used dynamic online annotator recruitment. As the first 3 annotators agreed, we did not recruit more for that item.
-
 
 ## Annotation Data
 
@@ -384,6 +382,8 @@ see `requirements.txt`
 ## Questions
 
 Thank you for your comments and questions. You can use GitHub Issues or address me directly (Anna via a.m.wegmann @ uu.nl).
+
+**Correction**: We provide the same running example exchange (QID: CNN-80522-7) for our EMNLP paper, poster and presentation slides. In the Poster/Presentation, we said that this was annotated by 20 annotators, but it was actually annotated by 3. We used dynamic online annotator recruitment. As the first 3 annotators agreed, we did not recruit more for that item.
 
 
 ## Citation
